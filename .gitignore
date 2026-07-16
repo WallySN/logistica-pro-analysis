@@ -1,0 +1,12 @@
+# Archivos de Power BI y Tableau (son muy pesados para GitHub)
+*.pbix
+*.pbit
+*.twb
+*.twbx
+
+# Datos generados para BI
+data/bi_ready/
+
+# Bloquear reportes locales finales si no quieres subirlos a la nube
+outputs/reports/pdf_executives/*.pdf
+outputs/reports/excel_summaries/*.xlsx
