@@ -82,7 +82,14 @@ def grafico_devoluciones_mes(df_devoluciones):
     if df.iloc[0]['ID_Devolución'] == 'ID_Devolución':
         df = df.iloc[1:].reset_index(drop=True)
     
-    df['Fecha_Devolución'] = pd.to_datetime(df['Fecha_Devolución'], errors='coerce', unit='D', origin='1899-12-30')
+    # Convertir fecha de forma flexible
+    try:
+        # Si ya es datetime o string ISO
+        df['Fecha_Devolución'] = pd.to_datetime(df['Fecha_Devolución'], errors='coerce')
+    except:
+        # Si es número serial de Excel
+        df['Fecha_Devolución'] = pd.to_datetime(df['Fecha_Devolución'], errors='coerce', unit='D', origin='1899-12-30')
+    
     df['Año-Mes'] = df['Fecha_Devolución'].dt.to_period('M')
     
     mes = df['Año-Mes'].value_counts().sort_index()

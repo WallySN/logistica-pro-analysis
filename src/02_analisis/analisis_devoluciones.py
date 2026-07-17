@@ -22,8 +22,14 @@ def analizar_devoluciones(df_devoluciones):
     if df.iloc[0]['ID_Devolución'] == 'ID_Devolución':
         df = df.iloc[1:].reset_index(drop=True)
     
-    # Convertir fecha
-    df['Fecha_Devolución'] = pd.to_datetime(df['Fecha_Devolución'], errors='coerce', unit='D', origin='1899-12-30')
+    # Convertir fecha (intentar formato normal primero, luego Excel serial)
+    try:
+        df['Fecha_Devolución'] = pd.to_datetime(df['Fecha_Devolución'], errors='coerce')
+    except:
+        try:
+            df['Fecha_Devolución'] = pd.to_datetime(df['Fecha_Devolución'], errors='coerce', unit='D', origin='1899-12-30')
+        except:
+            df['Fecha_Devolución'] = pd.to_datetime(df['Fecha_Devolución'], errors='coerce', format='%Y-%m-%d')
     
     # 1. KPIs
     logger.info("\n--- KPIs GENERALES ---")
