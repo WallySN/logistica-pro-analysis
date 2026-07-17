@@ -34,3 +34,733 @@
 2026-07-17 22:53:05 | INFO     | logistica_pro | ============================================================
 2026-07-17 22:53:05 | INFO     | logistica_pro | Cargando archivo: /workspaces/logistica-pro-analysis/data/raw/logistica_pro_expandido (2).xlsx
 2026-07-17 22:53:05 | ERROR    | logistica_pro | ✗ Error al cargar Excel: `Import openpyxl` failed.  Use pip or conda to install the openpyxl package.
+2026-07-17 22:58:36 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:58:36 | INFO     | logistica_pro |   PIPELINE LOGISTICA PRO - ANALISIS COMPLETO
+2026-07-17 22:58:36 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:58:36 | INFO     | logistica_pro | 
+============================================================
+2026-07-17 22:58:36 | INFO     | logistica_pro | PASO 1: CARGA DE DATOS
+2026-07-17 22:58:36 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:58:36 | INFO     | logistica_pro | Cargando archivo: /workspaces/logistica-pro-analysis/data/raw/logistica_pro_expandido (2).xlsx
+2026-07-17 22:58:36 | INFO     | logistica_pro |   → Cargando hoja: Productos
+2026-07-17 22:58:37 | INFO     | logistica_pro |     ✓ 200 filas, 24 columnas
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Cargando hoja: Proveedores
+2026-07-17 22:58:37 | INFO     | logistica_pro |     ✓ 50 filas, 18 columnas
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Cargando hoja: Clientes
+2026-07-17 22:58:37 | INFO     | logistica_pro |     ✓ 100 filas, 19 columnas
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Cargando hoja: Almacenes
+2026-07-17 22:58:37 | INFO     | logistica_pro |     ✓ 10 filas, 16 columnas
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Cargando hoja: Transporte
+2026-07-17 22:58:37 | INFO     | logistica_pro |     ✓ 25 filas, 16 columnas
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Cargando hoja: Inventario
+2026-07-17 22:58:37 | INFO     | logistica_pro |     ✓ 250 filas, 17 columnas
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Cargando hoja: Compras
+2026-07-17 22:58:37 | INFO     | logistica_pro |     ✓ 400 filas, 19 columnas
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Cargando hoja: Devoluciones
+2026-07-17 22:58:37 | INFO     | logistica_pro |     ✓ 92 filas, 5 columnas
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Cargando hoja: Incidentes_Transporte
+2026-07-17 22:58:37 | INFO     | logistica_pro |     ✓ 27 filas, 5 columnas
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Cargando hoja: Ventas
+2026-07-17 22:58:37 | INFO     | logistica_pro |     ✓ 801 filas, 19 columnas
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Cargando hoja: Movimientos
+2026-07-17 22:58:37 | INFO     | logistica_pro |     ✓ 600 filas, 18 columnas
+2026-07-17 22:58:37 | INFO     | logistica_pro | ✓ Carga completada: 11 hojas
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Guardado: productos.csv
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Guardado: proveedores.csv
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Guardado: clientes.csv
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Guardado: almacenes.csv
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Guardado: transporte.csv
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Guardado: inventario.csv
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Guardado: compras.csv
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Guardado: devoluciones.csv
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Guardado: incidentes_transporte.csv
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Guardado: ventas.csv
+2026-07-17 22:58:37 | INFO     | logistica_pro |   → Guardado: movimientos.csv
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+✓ Hojas cargadas: ['Productos', 'Proveedores', 'Clientes', 'Almacenes', 'Transporte', 'Inventario', 'Compras', 'Devoluciones', 'Incidentes_Transporte', 'Ventas', 'Movimientos']
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+============================================================
+2026-07-17 22:58:37 | INFO     | logistica_pro | PASO 2: ANALISIS DE DATOS
+2026-07-17 22:58:37 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:58:37 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:37 | INFO     | logistica_pro | ANÁLISIS DE PRODUCTOS
+2026-07-17 22:58:37 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- KPIs GENERALES ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | Total productos: 200
+2026-07-17 22:58:37 | INFO     | logistica_pro | Precio promedio: $482.30
+2026-07-17 22:58:37 | INFO     | logistica_pro | Costo promedio: $269.21
+2026-07-17 22:58:37 | INFO     | logistica_pro | Margen promedio: 80.9%
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR CATEGORÍA ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+             count       sum        mean   median
+Categoría                                        
+PSU             26  13473.66  518.217692  514.550
+HDD             26  11866.47  456.402692  438.060
+RAM             23  11795.55  512.850000  606.790
+GPU             20  10695.42  534.771000  580.085
+Case            24  10628.66  442.860833  501.450
+Cooling         16   9186.53  574.158125  556.785
+SSD             18   9076.88  504.271111  486.580
+Peripherals     15   6716.40  447.760000  444.400
+CPU             15   6591.13  439.408667  423.360
+Motherboard     17   6428.43  378.142941  378.140
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR GAMA ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+         count       sum        mean   median
+Gama                                         
+Media       58  26764.67  461.459828  434.220
+Alta        52  25294.75  486.437500  515.185
+Premium     45  24317.82  540.396000  517.080
+Baja        45  20081.89  446.264222  450.900
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- TOP 10 MARCAS ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+                 count       sum        mean   median
+Marca                                                
+Samsung             20  10775.62  538.781000  531.285
+Western Digital     16   9341.90  583.868750  596.240
+Gigabyte            17   8518.40  501.082353  492.640
+Seagate             16   7368.44  460.527500  498.750
+Corsair             15   7142.03  476.135333  472.430
+Intel               11   6739.95  612.722727  599.610
+AMD                 16   6318.79  394.924375  449.975
+CoolerMaster        12   6009.37  500.780833  487.085
+Crucial             13   6008.62  462.201538  434.690
+NVIDIA              12   5926.45  493.870833  409.490
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- TOP 10 MARGENES ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+          SKU                                 Nombre            Marca     Gama  Margen %  Precio USD
+5    SKU-0006  Western Digital Peripherals Model-981  Western Digital  Premium     149.7      531.51
+115  SKU-0116                     AMD Case Model-874              AMD     Alta     149.1      257.49
+136  SKU-0137                 Gigabyte RAM Model-808         Gigabyte  Premium     148.8      207.19
+108  SKU-0109         Gigabyte Peripherals Model-579         Gigabyte     Alta     148.6      442.60
+88   SKU-0089                  Samsung CPU Model-920          Samsung  Premium     147.4      429.37
+49   SKU-0050                     ASUS PSU Model-972             ASUS     Baja     146.0      642.71
+98   SKU-0099                  Samsung CPU Model-606          Samsung  Premium     145.7      681.61
+105  SKU-0106                  NVIDIA Case Model-180           NVIDIA  Premium     144.1     1020.99
+174  SKU-0175          Western Digital HDD Model-716  Western Digital    Media     143.3      919.76
+134  SKU-0135                  Corsair PSU Model-426          Corsair     Alta     143.1      472.43
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR CONDICIÓN ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+Condición
+Nuevo              138
+Reacondicionado     35
+Open Box            27
+Name: count, dtype: int64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR ESTADO ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+Estado
+Activo           137
+Descontinuado     35
+En revisión       28
+Name: count, dtype: int64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+✓ Análisis de productos completado
+2026-07-17 22:58:37 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:37 | INFO     | logistica_pro | ANÁLISIS DE VENTAS
+2026-07-17 22:58:37 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- KPIs GENERALES ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | Total ventas: 801
+2026-07-17 22:58:37 | INFO     | logistica_pro | Ventas totales USD: $10,630,285.93
+2026-07-17 22:58:37 | INFO     | logistica_pro | Ticket promedio: $13,287.86
+2026-07-17 22:58:37 | INFO     | logistica_pro | Cantidad promedio: 25.1
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR ESTADO ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+Estado
+Completada    438
+Cancelada     111
+Devuelta       92
+Pendiente      85
+En proceso     74
+Name: count, dtype: int64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR CANAL ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+                count         sum          mean     median
+Canal de Venta                                            
+Teléfono          148  2109003.48  14250.023514  10961.170
+Marketplace       145  2057975.69  14192.935793  10461.990
+E-commerce        131  1713669.07  13081.443282   9545.810
+App Móvil         125  1647399.75  13179.198000  10876.260
+Web               129  1569587.76  12167.346977   9503.200
+Presencial        122  1532650.18  12562.706393  10138.085
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR MÉTODO DE PAGO ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+                    count         sum          mean     median
+Método de Pago                                                
+PayPal                131  1815426.44  13858.217099  10621.860
+Mercado Pago          125  1664124.60  13312.996800  10019.290
+Transferencia         125  1602062.90  12816.503200   9733.050
+Efectivo              106  1454662.60  13723.232075  11184.015
+Stripe                106  1412925.61  13329.486887  11620.645
+Cheque                107  1383540.30  12930.283178   8742.610
+Tarjeta de crédito    100  1297543.48  12975.434800  10497.175
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- TOP 10 CLIENTES ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+Cliente
+CLI-034    218669.21
+CLI-017    205681.68
+CLI-004    205466.34
+CLI-018    200226.08
+CLI-079    197909.25
+CLI-100    193282.70
+CLI-064    189460.75
+CLI-046    188439.01
+CLI-021    178842.72
+CLI-066    177371.69
+Name: Total USD, dtype: float64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- VENTAS POR MES ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+Año-Mes
+2024-01    606605.41
+2024-02    486034.54
+2024-03    318076.47
+2024-04    312278.68
+2024-05    352646.01
+2024-06    491090.45
+2024-07    391153.10
+2024-08    428134.78
+2024-09    626133.80
+2024-10    487505.49
+2024-11    383227.48
+2024-12    373068.30
+2025-01    368653.15
+2025-02    351731.35
+2025-03    562153.03
+2025-04    272187.24
+2025-05    386508.57
+2025-06    494807.59
+2025-07    400931.15
+2025-08    425934.15
+2025-09    267786.08
+2025-10    283455.33
+2025-11    392075.67
+2025-12    256811.02
+2026-01    342284.09
+2026-02    312074.09
+2026-03    256938.91
+Freq: M, Name: Total USD, dtype: float64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- TOP 10 SKU MÁS VENDIDOS ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+SKU
+SKU-0064    261.0
+SKU-0186    250.0
+SKU-0096    242.0
+SKU-0031    221.0
+SKU-0028    219.0
+SKU-0106    218.0
+SKU-0108    210.0
+SKU-0129    205.0
+SKU-0160    204.0
+SKU-0180    200.0
+Name: Cantidad, dtype: float64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+✓ Análisis de ventas completado
+2026-07-17 22:58:37 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:37 | INFO     | logistica_pro | ANÁLISIS DE COMPRAS
+2026-07-17 22:58:37 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- KPIs GENERALES ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | Total órdenes: 400
+2026-07-17 22:58:37 | INFO     | logistica_pro | Compras totales USD: $6,179,733.06
+2026-07-17 22:58:37 | INFO     | logistica_pro | Costo promedio: $14,220.59
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR ESTADO ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+Estado
+Completada     207
+Cancelada       53
+Parcial         50
+Pendiente       49
+En tránsito     41
+Name: count, dtype: int64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- TOP 10 PROVEEDORES ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+           count        sum          mean     median
+Proveedor                                           
+PROV-021      12  272087.85  22673.987500  27821.685
+PROV-024      13  244714.11  18824.162308  13275.880
+PROV-030       8  213075.66  26634.457500  21129.525
+PROV-010       9  210222.43  23358.047778  23518.450
+PROV-023      11  191045.99  17367.817273  14817.100
+PROV-008      12  188579.74  15714.978333  12506.475
+PROV-007      11  180330.24  16393.658182  18068.100
+PROV-002      10  173044.04  17304.404000  14962.490
+PROV-043      10  164615.91  16461.591000  13405.690
+PROV-038      11  160580.90  14598.263636   6137.180
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR ALMACÉN DESTINO ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+                 count        sum          mean     median
+Almacén Destino                                           
+ALM-09              42  775545.76  18465.375238  13278.150
+ALM-01              47  768885.78  16359.271915  11805.020
+ALM-06              42  758260.31  18053.816905  18181.545
+ALM-10              52  720670.87  13859.055192  11577.630
+ALM-03              42  633314.79  15078.923571  12687.005
+ALM-04              39  629307.34  16136.085641  17061.360
+ALM-07              45  575568.02  12790.400444  10351.150
+ALM-05              27  467292.04  17307.112593  15355.400
+ALM-08              32  450198.61  14068.706562   7637.985
+ALM-02              32  400689.54  12521.548125  10134.585
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- CUMPLIMIENTO DE ENTREGA ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+count    400.000000
+mean      88.960650
+std       18.085863
+min        0.000000
+25%       89.470000
+50%       94.930000
+75%       98.157500
+max      100.000000
+Name: Cumplimiento %, dtype: float64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- TIEMPOS DE ENTREGA ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+count    400.000000
+mean       1.752500
+std       18.788394
+min      -40.000000
+25%      -12.000000
+50%        1.500000
+75%       15.000000
+max       43.000000
+Name: Dias Retraso, dtype: float64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR MONEDA ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+Moneda
+USD    244
+EUR     83
+CNY     73
+Name: count, dtype: int64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+✓ Análisis de compras completado
+2026-07-17 22:58:37 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:37 | INFO     | logistica_pro | ANÁLISIS DE PROVEEDORES
+2026-07-17 22:58:37 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- KPIs GENERALES ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | Total proveedores: 50
+2026-07-17 22:58:37 | INFO     | logistica_pro | Lead Time promedio: 17.6 días
+2026-07-17 22:58:37 | INFO     | logistica_pro | MOQ promedio: 169
+2026-07-17 22:58:37 | INFO     | logistica_pro | Calificación promedio: 3.85
+2026-07-17 22:58:37 | INFO     | logistica_pro | Años de relación promedio: 8.4
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR ESTADO ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+Estado
+Activo           29
+Suspendido        9
+Inactivo          7
+En evaluación     5
+Name: count, dtype: int64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR PAÍS ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+País
+Malasia          9
+India            8
+China            7
+Vietnam          7
+USA              6
+Japón            4
+México           3
+Alemania         3
+Corea del Sur    2
+Taiwan           1
+Name: count, dtype: int64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR TIPO ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+Tipo
+Consignatario    17
+Mayorista        10
+Distribuidor      9
+Fabricante        8
+Importador        6
+Name: count, dtype: int64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- TOP 10 CALIFICACIONES ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+          ID             Nombre      País  Calificación  Años de Relación
+7   PROV-008   ProveedorGlobal8   Vietnam           5.0                12
+15  PROV-016  ProveedorGlobal16     India           5.0                11
+10  PROV-011  ProveedorGlobal11     India           4.8                 7
+35  PROV-036  ProveedorGlobal36       USA           4.8                 6
+13  PROV-014  ProveedorGlobal14  Alemania           4.7                12
+17  PROV-018  ProveedorGlobal18     China           4.7                14
+23  PROV-024  ProveedorGlobal24     China           4.7                 7
+33  PROV-034  ProveedorGlobal34   Malasia           4.7                10
+26  PROV-027  ProveedorGlobal27     China           4.6                 1
+28  PROV-029  ProveedorGlobal29     India           4.6                 4
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- CONDICIÓN DE PAGO ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+Condición de Pago
+30 días    14
+60 días    10
+90 días    10
+45 días     9
+Contado     7
+Name: count, dtype: int64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- TOP 10 MENOR LEAD TIME ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+          ID             Nombre           País  Lead Time Días  Calificación
+17  PROV-018  ProveedorGlobal18          China               3           4.7
+23  PROV-024  ProveedorGlobal24          China               3           4.7
+24  PROV-025  ProveedorGlobal25        Vietnam               4           4.5
+7   PROV-008   ProveedorGlobal8        Vietnam               5           5.0
+26  PROV-027  ProveedorGlobal27          China               5           4.6
+5   PROV-006   ProveedorGlobal6        Malasia               6           4.2
+9   PROV-010  ProveedorGlobal10  Corea del Sur               6           3.4
+29  PROV-030  ProveedorGlobal30        Malasia               6           2.8
+28  PROV-029  ProveedorGlobal29          India               7           4.6
+39  PROV-040  ProveedorGlobal40         México               7           2.6
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+✓ Análisis de proveedores completado
+2026-07-17 22:58:37 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:37 | INFO     | logistica_pro | ANÁLISIS DE INVENTARIO
+2026-07-17 22:58:37 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- KPIs GENERALES ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | Total líneas de inventario: 250
+2026-07-17 22:58:37 | INFO     | logistica_pro | Stock físico total: 36,497 unidades
+2026-07-17 22:58:37 | INFO     | logistica_pro | Valor total inventario: $8,046,670.31
+2026-07-17 22:58:37 | INFO     | logistica_pro | Valor promedio por línea: $32,186.68
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR ESTADO ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+Estado
+Disponible       128
+En tránsito       42
+Dañado            33
+En cuarentena     27
+Bloqueado         20
+Name: count, dtype: int64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- POR ALMACÉN ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+Almacén
+ALM-02    967685.81
+ALM-06    944728.43
+ALM-05    925989.84
+ALM-04    827490.75
+ALM-07    814539.72
+ALM-01    790094.58
+ALM-10    786173.17
+ALM-09    784130.48
+ALM-08    673835.30
+ALM-03    532002.23
+Name: Valor Inventario USD, dtype: float64
+2026-07-17 22:58:37 | INFO     | logistica_pro | 
+--- STOCK BAJO (Disponible < Mínimo) ---
+2026-07-17 22:58:37 | INFO     | logistica_pro | Total: 32 líneas
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+         SKU Almacén  Disponible  Stock Mínimo         Estado
+5   SKU-0126  ALM-04          13            28     Disponible
+7   SKU-0163  ALM-06          15            21  En cuarentena
+12  SKU-0194  ALM-07          15            23     Disponible
+16  SKU-0032  ALM-08          23            27    En tránsito
+27  SKU-0087  ALM-03           2            23  En cuarentena
+29  SKU-0052  ALM-08           4            14     Disponible
+63  SKU-0055  ALM-03           2             5    En tránsito
+86  SKU-0144  ALM-06          22            23    En tránsito
+89  SKU-0039  ALM-06           6            15     Disponible
+92  SKU-0103  ALM-10           8            18     Disponible
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- SOBRE-STOCK (Disponible > Máximo) ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | Total: 36 líneas
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+         SKU Almacén  Disponible  Stock Máximo
+3   SKU-0164  ALM-05         201           195
+6   SKU-0096  ALM-09         293           263
+22  SKU-0076  ALM-08         219           109
+32  SKU-0069  ALM-09         186           175
+34  SKU-0125  ALM-09         196           114
+41  SKU-0200  ALM-08         194           182
+56  SKU-0085  ALM-01         211           128
+64  SKU-0078  ALM-10         140           107
+66  SKU-0121  ALM-01         193           126
+77  SKU-0198  ALM-01         260           184
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- ROTACIÓN ANUAL ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+count    250.000000
+mean       7.974800
+std        4.050103
+min        1.000000
+25%        4.700000
+50%        8.450000
+75%       11.300000
+max       14.900000
+Name: Rotación Anual, dtype: float64
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- TOP 10 VALOR DE INVENTARIO ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+          SKU Almacén  Stock Físico  Costo Unitario USD  Valor Inventario USD
+214  SKU-0182  ALM-05           282              337.83             130328.19
+236  SKU-0022  ALM-10           289              491.24             111429.40
+91   SKU-0193  ALM-08           257              423.36             109443.29
+195  SKU-0183  ALM-07           273              323.32             109404.64
+22   SKU-0076  ALM-08           251              393.78             108584.62
+197  SKU-0075  ALM-05           247              187.17             107607.13
+115  SKU-0154  ALM-06           296              254.44             105335.39
+142  SKU-0100  ALM-05           227              162.36             102802.64
+77   SKU-0198  ALM-01           264               77.66             101825.51
+56   SKU-0085  ALM-01           231               81.83             100932.92
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+✓ Análisis de inventario completado
+2026-07-17 22:58:38 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:38 | INFO     | logistica_pro | ANÁLISIS DE CLIENTES
+2026-07-17 22:58:38 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- KPIs GENERALES ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | Total clientes: 100
+2026-07-17 22:58:38 | INFO     | logistica_pro | Límite crédito promedio: $74,400.00
+2026-07-17 22:58:38 | INFO     | logistica_pro | Volumen anual estimado total: 1,233,400
+2026-07-17 22:58:38 | INFO     | logistica_pro | Descuento promedio: 10.1%
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- POR ESTADO ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+Estado
+Activo      66
+Nuevo       12
+Inactivo    12
+Moroso      10
+Name: count, dtype: int64
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- POR PAÍS ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+País
+Argentina    13
+Colombia     13
+Canadá       12
+Perú         12
+México       12
+España       11
+USA          10
+Brasil        7
+Panamá        7
+Chile         3
+Name: count, dtype: int64
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- POR TIPO ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+Tipo
+Cadena Retail    29
+Distribuidor     25
+E-commerce       21
+Minorista        13
+Mayorista        12
+Name: count, dtype: int64
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- POR SECTOR ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+Sector
+Finanzas       17
+Gaming         17
+Educación      13
+Salud          13
+Corporativo    12
+Gobierno       11
+Electrónica     9
+Tecnología      8
+Name: count, dtype: int64
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- TOP 10 LÍMITE DE CRÉDITO ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+         ID        Empresa    País           Tipo  Límite Crédito USD    Estado
+7   CLI-008   ClienteTech8  Canadá     E-commerce              250000    Activo
+13  CLI-014  ClienteTech14   Chile  Cadena Retail              250000    Moroso
+17  CLI-018  ClienteTech18  México      Minorista              250000    Moroso
+25  CLI-026  ClienteTech26  México      Minorista              250000    Moroso
+26  CLI-027  ClienteTech27     USA      Mayorista              250000    Activo
+34  CLI-035  ClienteTech35  España  Cadena Retail              250000    Activo
+38  CLI-039  ClienteTech39  Panamá      Mayorista              250000    Activo
+44  CLI-045  ClienteTech45  México   Distribuidor              250000    Activo
+48  CLI-049  ClienteTech49  Canadá     E-commerce              250000  Inactivo
+55  CLI-056  ClienteTech56  México     E-commerce              250000    Activo
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- CLIENTES MOROSOS ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | Total morosos: 10
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+         ID        Empresa      País  Límite Crédito USD  Días Crédito
+13  CLI-014  ClienteTech14     Chile              250000            30
+17  CLI-018  ClienteTech18    México              250000            60
+22  CLI-023  ClienteTech23       USA                5000            15
+25  CLI-026  ClienteTech26    México              250000            15
+31  CLI-032  ClienteTech32  Colombia               10000             0
+32  CLI-033  ClienteTech33    Canadá                5000            45
+41  CLI-042  ClienteTech42    Panamá                5000            45
+63  CLI-064  ClienteTech64       USA                5000             0
+82  CLI-083  ClienteTech83    México               25000            60
+94  CLI-095  ClienteTech95      Perú               25000            30
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+✓ Análisis de clientes completado
+2026-07-17 22:58:38 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:38 | INFO     | logistica_pro | ANÁLISIS DE TRANSPORTE
+2026-07-17 22:58:38 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- KPIs GENERALES ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | Total rutas: 25
+2026-07-17 22:58:38 | INFO     | logistica_pro | Costo base promedio: $1,113.36
+2026-07-17 22:58:38 | INFO     | logistica_pro | Costo por kg promedio: $2.89
+2026-07-17 22:58:38 | INFO     | logistica_pro | Tiempo estimado promedio: 21.2 días
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- POR TIPO ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+Tipo
+Terrestre      7
+Aéreo          5
+Multimodal     5
+Marítimo       4
+Ferroviario    4
+Name: count, dtype: int64
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- POR MODALIDAD ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+Modalidad
+Express      7
+Económico    5
+LCL          4
+FTL          4
+FCL          3
+LTL          2
+Name: count, dtype: int64
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- POR EMPRESA ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+                count         mean
+Empresa                           
+Maersk              5  1039.800000
+XPO Logistics       4  1275.500000
+UPS                 3   431.000000
+Expeditors          3  1449.333333
+DB Schenker         2  1216.500000
+C.H. Robinson       2  1718.000000
+CEVA Logistics      2  1743.500000
+Kuehne+Nagel        1   714.000000
+FedEx               1   345.000000
+TNT                 1  1133.000000
+Panalpina           1   344.000000
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- POR ESTADO ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+Estado
+Activo      19
+Inactivo     6
+Name: count, dtype: int64
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- TOP 10 RUTAS MÁS CARAS ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+        ID         Nombre Ruta         Tipo         Empresa     Origen    Destino  Costo Base USD
+8   TR-009   Ruta Este-Oeste 9   Multimodal   C.H. Robinson        USA     Panamá            1965
+24  TR-025  Ruta Este-Oeste 25  Ferroviario  CEVA Logistics       Perú     México            1922
+14  TR-015  Ruta Este-Oeste 15   Multimodal      Expeditors     España  Argentina            1784
+11  TR-012       Ruta Costa 12    Terrestre          Maersk  Argentina  Argentina            1640
+15  TR-016       Ruta Costa 16    Terrestre   XPO Logistics  Argentina  Argentina            1593
+13  TR-014     Ruta Central 14        Aéreo   XPO Logistics  Argentina       Perú            1581
+23  TR-024  Ruta Este-Oeste 24    Terrestre  CEVA Logistics      Chile     España            1565
+18  TR-019   Ruta Norte-Sur 19  Ferroviario      Expeditors     Canadá      Chile            1520
+16  TR-017     Ruta Central 17    Terrestre   C.H. Robinson     México  Argentina            1471
+21  TR-022  Ruta Este-Oeste 22        Aéreo     DB Schenker     Canadá        USA            1376
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- TOP 10 RUTAS MÁS RÁPIDAS ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+        ID           Nombre Ruta         Tipo     Origen    Destino  Tiempo Estimado Días
+11  TR-012         Ruta Costa 12    Terrestre  Argentina  Argentina                     2
+12  TR-013         Ruta Costa 13        Aéreo     Brasil     Panamá                     3
+24  TR-025    Ruta Este-Oeste 25  Ferroviario       Perú     México                     4
+5   TR-006       Ruta Regional 6     Marítimo  Argentina       Perú                     5
+16  TR-017       Ruta Central 17    Terrestre     México  Argentina                     5
+17  TR-018     Ruta Norte-Sur 18        Aéreo     Canadá        USA                    14
+21  TR-022    Ruta Este-Oeste 22        Aéreo     Canadá        USA                    14
+18  TR-019     Ruta Norte-Sur 19  Ferroviario     Canadá      Chile                    15
+0   TR-001  Ruta Internacional 1     Marítimo   Colombia       Perú                    16
+8   TR-009     Ruta Este-Oeste 9   Multimodal        USA     Panamá                    18
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- COBERTURA ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | Con seguro: 17
+2026-07-17 22:58:38 | INFO     | logistica_pro | Con tracking: 19
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+✓ Análisis de transporte completado
+2026-07-17 22:58:38 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:38 | INFO     | logistica_pro | ANÁLISIS DE INCIDENTES DE TRANSPORTE
+2026-07-17 22:58:38 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- KPIs GENERALES ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | Total incidentes: 27
+2026-07-17 22:58:38 | INFO     | logistica_pro | Costo total incidentes: $12,488.00
+2026-07-17 22:58:38 | INFO     | logistica_pro | Costo promedio por incidente: $462.52
+2026-07-17 22:58:38 | INFO     | logistica_pro | Retraso total: 12,277 horas
+2026-07-17 22:58:38 | INFO     | logistica_pro | Retraso promedio: 454.7 horas
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- POR TIPO DE INCIDENTE ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+Tipo_Incidente
+Falla Mecánica       8
+Accidente            7
+Retraso por Clima    7
+Robo Parcial         5
+Name: count, dtype: int64
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- COSTO POR TIPO ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+                   count   sum        mean
+Tipo_Incidente                            
+Falla Mecánica         8  4042  505.250000
+Retraso por Clima      7  3144  449.142857
+Accidente              7  3112  444.571429
+Robo Parcial           5  2190  438.000000
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- TOP 10 MÁS COSTOSOS ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+   ID_Incidente   ID_Venta     Tipo_Incidente  Costo_Incidente_USD  Horas_Retraso
+2       INC-003  VENT-0058     Falla Mecánica                  798            798
+17      INC-018  VENT-0484  Retraso por Clima                  790            292
+6       INC-007  VENT-0254  Retraso por Clima                  776            246
+3       INC-004  VENT-0112          Accidente                  730             74
+8       INC-009  VENT-0312     Falla Mecánica                  681            599
+24      INC-025  VENT-0648     Falla Mecánica                  678            511
+11      INC-012  VENT-0390       Robo Parcial                  675            681
+20      INC-021  VENT-0599     Falla Mecánica                  636            141
+13      INC-014  VENT-0405          Accidente                  600            382
+9       INC-010  VENT-0338  Retraso por Clima                  599            500
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- TOP 10 MAYORES RETRASOS ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+   ID_Incidente   ID_Venta     Tipo_Incidente  Horas_Retraso  Costo_Incidente_USD
+10      INC-011  VENT-0373  Retraso por Clima            799                  293
+2       INC-003  VENT-0058     Falla Mecánica            798                  798
+7       INC-008  VENT-0269       Robo Parcial            756                  430
+18      INC-019  VENT-0486  Retraso por Clima            703                  338
+0       INC-001  VENT-0005       Robo Parcial            690                  278
+11      INC-012  VENT-0390       Robo Parcial            681                  675
+22      INC-023  VENT-0617     Falla Mecánica            665                  568
+1       INC-002  VENT-0009          Accidente            601                  187
+8       INC-009  VENT-0312     Falla Mecánica            599                  681
+14      INC-015  VENT-0443  Retraso por Clima            578                  200
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+--- CORRELACIÓN ---
+2026-07-17 22:58:38 | INFO     | logistica_pro | Correlación Costo vs Retraso: -0.133
+2026-07-17 22:58:38 | INFO     | logistica_pro | 
+✓ Análisis de incidentes completado
+2026-07-17 22:58:38 | INFO     | logistica_pro | ==================================================
+2026-07-17 22:58:38 | INFO     | logistica_pro | ANÁLISIS DE DEVOLUCIONES
+2026-07-17 22:58:38 | INFO     | logistica_pro | ==================================================

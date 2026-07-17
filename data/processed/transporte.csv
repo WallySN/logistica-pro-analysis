@@ -1,0 +1,26 @@
+ID,Nombre Ruta,Tipo,Empresa,Costo Base USD,Costo por kg USD,Costo por m3 USD,Tiempo Estimado Días,Origen,Destino,Capacidad Máx kg,Modalidad,Seguro Incluido,Tracking Disponible,Estado,Fecha Contrato
+TR-001,Ruta Internacional 1,Marítimo,UPS,493,1.72,50.54,16,Colombia,Perú,1000,Express,Sí,No,Inactivo,2019-12-27
+TR-002,Ruta Norte-Sur 2,Terrestre,DB Schenker,1057,3.01,27.27,34,España,Perú,10000,Express,Sí,No,Activo,2022-02-06
+TR-003,Ruta Regional 3,Aéreo,UPS,430,1.17,85.94,31,Argentina,Colombia,5000,Económico,Sí,Sí,Activo,2022-03-13
+TR-004,Ruta Central 4,Marítimo,Kuehne+Nagel,714,3.28,90.11,30,USA,España,1000,Express,Sí,Sí,Activo,2024-06-09
+TR-005,Ruta Este-Oeste 5,Multimodal,FedEx,345,3.75,63.34,21,Panamá,México,10000,LCL,Sí,Sí,Activo,2020-02-06
+TR-006,Ruta Regional 6,Marítimo,Expeditors,1044,1.4,90.22,5,Argentina,Perú,20000,FCL,No,Sí,Activo,2025-11-01
+TR-007,Ruta Central 7,Ferroviario,Maersk,993,1.11,74.78,41,Chile,Brasil,5000,FTL,Sí,Sí,Inactivo,2019-09-02
+TR-008,Ruta Regional 8,Terrestre,Maersk,427,2.59,47.64,22,México,Brasil,50000,LCL,Sí,Sí,Activo,2023-08-14
+TR-009,Ruta Este-Oeste 9,Multimodal,C.H. Robinson,1965,3.16,85.33,18,USA,Panamá,5000,LCL,No,No,Inactivo,2021-06-29
+TR-010,Ruta Norte-Sur 10,Multimodal,Maersk,1374,2.38,13.98,31,Canadá,USA,20000,Express,No,No,Activo,2024-01-28
+TR-011,Ruta Interior 11,Ferroviario,UPS,370,3.89,72.38,27,México,Colombia,10000,FTL,Sí,Sí,Activo,2024-05-19
+TR-012,Ruta Costa 12,Terrestre,Maersk,1640,4.36,77.26,2,Argentina,Argentina,5000,Económico,No,Sí,Activo,2024-03-16
+TR-013,Ruta Costa 13,Aéreo,Panalpina,344,4.52,39.96,3,Brasil,Panamá,10000,Económico,Sí,Sí,Inactivo,2022-10-07
+TR-014,Ruta Central 14,Aéreo,XPO Logistics,1581,4.5,19.99,24,Argentina,Perú,1000,FTL,No,Sí,Inactivo,2019-10-02
+TR-015,Ruta Este-Oeste 15,Multimodal,Expeditors,1784,1.12,40.14,35,España,Argentina,50000,Económico,Sí,Sí,Activo,2022-12-15
+TR-016,Ruta Costa 16,Terrestre,XPO Logistics,1593,1.75,15.7,23,Argentina,Argentina,50000,Express,Sí,No,Inactivo,2024-12-22
+TR-017,Ruta Central 17,Terrestre,C.H. Robinson,1471,4.1,95.08,5,México,Argentina,1000,FCL,No,Sí,Activo,2019-11-12
+TR-018,Ruta Norte-Sur 18,Aéreo,Maersk,765,3.64,54.67,14,Canadá,USA,10000,LTL,Sí,No,Activo,2023-09-17
+TR-019,Ruta Norte-Sur 19,Ferroviario,Expeditors,1520,1.81,15.67,15,Canadá,Chile,20000,Express,No,Sí,Activo,2025-08-27
+TR-020,Ruta Costa 20,Multimodal,XPO Logistics,1111,1.87,21.88,20,Colombia,Brasil,5000,LTL,No,Sí,Activo,2020-08-30
+TR-021,Ruta Este-Oeste 21,Terrestre,TNT,1133,3.28,24.47,35,Brasil,Colombia,5000,Económico,Sí,Sí,Activo,2020-04-23
+TR-022,Ruta Este-Oeste 22,Aéreo,DB Schenker,1376,2.48,43.27,14,Canadá,USA,10000,FTL,Sí,Sí,Activo,2025-01-20
+TR-023,Ruta Norte-Sur 23,Marítimo,XPO Logistics,817,4.64,46.41,32,Colombia,Argentina,10000,LCL,Sí,Sí,Activo,2024-04-25
+TR-024,Ruta Este-Oeste 24,Terrestre,CEVA Logistics,1565,4.1,75.57,29,Chile,España,20000,FCL,Sí,Sí,Activo,2019-04-12
+TR-025,Ruta Este-Oeste 25,Ferroviario,CEVA Logistics,1922,2.51,18.32,4,Perú,México,50000,Express,Sí,Sí,Activo,2019-04-03

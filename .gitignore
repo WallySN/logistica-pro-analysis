@@ -1,12 +1,46 @@
-# Archivos de Power BI y Tableau (son muy pesados para GitHub)
-*.pbix
-*.pbit
-*.twb
-*.twbx
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Datos generados para BI
-data/bi_ready/
+# Jupyter
+.ipynb_checkpoints
 
-# Bloquear reportes locales finales si no quieres subirlos a la nube
-outputs/reports/pdf_executives/*.pdf
-outputs/reports/excel_summaries/*.xlsx
+# Entornos
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs y outputs locales
+logs/
+*.log
+outputs/
+data/processed/*.csv
+
+# Datos crudos (opcional, si no quieres subir el Excel)
+# data/raw/*.xlsx

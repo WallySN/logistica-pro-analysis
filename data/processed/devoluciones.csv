@@ -1,0 +1,93 @@
+ID_Devolución,ID_Venta,Fecha_Devolución,Motivo,Estado_Producto
+DEV-001,VENT-0005,2024-03-17,Componente Incompatible,Desecho
+DEV-002,VENT-0009,2026-03-23,Retraso en entrega,Reacondicionado
+DEV-003,VENT-0011,2024-04-17,Defectuoso,Desecho
+DEV-004,VENT-0043,2026-01-30,Pedido Incorrecto,Desecho
+DEV-005,VENT-0054,2024-09-06,Componente Incompatible,Desecho
+DEV-006,VENT-0058,2026-03-06,Componente Incompatible,Reacondicionado
+DEV-007,VENT-0072,2025-07-13,Defectuoso,Desecho
+DEV-008,VENT-0104,2025-10-31,Componente Incompatible,Reacondicionado
+DEV-009,VENT-0112,2024-10-12,Defectuoso,Reacondicionado
+DEV-010,VENT-0117,2024-12-06,Componente Incompatible,Reacondicionado
+DEV-011,VENT-0120,2024-03-16,Retraso en entrega,Reacondicionado
+DEV-012,VENT-0122,2025-05-30,Defectuoso,Desecho
+DEV-013,VENT-0133,2024-06-08,Pedido Incorrecto,Reacondicionado
+DEV-014,VENT-0135,2024-07-05,Defectuoso,Reacondicionado
+DEV-015,VENT-0156,2024-03-17,Retraso en entrega,Reacondicionado
+DEV-016,VENT-0162,2025-01-08,Retraso en entrega,Reacondicionado
+DEV-017,VENT-0178,2024-02-20,Componente Incompatible,Desecho
+DEV-018,VENT-0195,2024-07-25,Defectuoso,Reacondicionado
+DEV-019,VENT-0210,2025-03-30,Retraso en entrega,Reacondicionado
+DEV-020,VENT-0234,2024-05-13,Pedido Incorrecto,Reacondicionado
+DEV-021,VENT-0238,2024-03-13,Componente Incompatible,Reacondicionado
+DEV-022,VENT-0254,2024-08-24,Pedido Incorrecto,Reacondicionado
+DEV-023,VENT-0261,2024-06-20,Componente Incompatible,Reacondicionado
+DEV-024,VENT-0269,2025-07-11,Pedido Incorrecto,Desecho
+DEV-025,VENT-0271,2024-10-29,Componente Incompatible,Desecho
+DEV-026,VENT-0278,2025-10-05,Defectuoso,Desecho
+DEV-027,VENT-0291,2024-11-28,Retraso en entrega,Desecho
+DEV-028,VENT-0307,2024-09-22,Retraso en entrega,Reacondicionado
+DEV-029,VENT-0312,2025-05-21,Retraso en entrega,Reacondicionado
+DEV-030,VENT-0321,2025-04-27,Defectuoso,Reacondicionado
+DEV-031,VENT-0333,2024-06-02,Defectuoso,Desecho
+DEV-032,VENT-0336,2024-08-05,Defectuoso,Reacondicionado
+DEV-033,VENT-0338,2024-03-18,Defectuoso,Desecho
+DEV-034,VENT-0339,2024-05-18,Defectuoso,Reacondicionado
+DEV-035,VENT-0340,2024-03-18,Componente Incompatible,Reacondicionado
+DEV-036,VENT-0360,2024-06-27,Componente Incompatible,Reacondicionado
+DEV-037,VENT-0373,2025-04-13,Pedido Incorrecto,Desecho
+DEV-038,VENT-0388,2024-03-19,Retraso en entrega,Desecho
+DEV-039,VENT-0390,2024-04-18,Pedido Incorrecto,Desecho
+DEV-040,VENT-0391,2025-01-19,Retraso en entrega,Reacondicionado
+DEV-041,VENT-0393,2024-08-01,Pedido Incorrecto,Desecho
+DEV-042,VENT-0397,2024-07-20,Defectuoso,Reacondicionado
+DEV-043,VENT-0403,2025-07-15,Componente Incompatible,Desecho
+DEV-044,VENT-0405,2024-12-26,Pedido Incorrecto,Desecho
+DEV-045,VENT-0406,2025-03-15,Defectuoso,Reacondicionado
+DEV-046,VENT-0418,2025-06-23,Pedido Incorrecto,Reacondicionado
+DEV-047,VENT-0430,2024-06-28,Retraso en entrega,Desecho
+DEV-048,VENT-0443,2024-04-19,Retraso en entrega,Desecho
+DEV-049,VENT-0457,2025-02-28,Defectuoso,Reacondicionado
+DEV-050,VENT-0458,2024-12-29,Componente Incompatible,Reacondicionado
+DEV-051,VENT-0466,2025-07-20,Componente Incompatible,Desecho
+DEV-052,VENT-0469,2024-05-14,Defectuoso,Reacondicionado
+DEV-053,VENT-0478,2024-02-04,Retraso en entrega,Reacondicionado
+DEV-054,VENT-0484,2025-04-26,Defectuoso,Reacondicionado
+DEV-055,VENT-0486,2024-12-22,Defectuoso,Reacondicionado
+DEV-056,VENT-0487,2025-03-20,Pedido Incorrecto,Reacondicionado
+DEV-057,VENT-0490,2025-09-20,Defectuoso,Desecho
+DEV-058,VENT-0492,2024-02-13,Pedido Incorrecto,Reacondicionado
+DEV-059,VENT-0511,2025-02-21,Defectuoso,Desecho
+DEV-060,VENT-0529,2024-07-18,Componente Incompatible,Desecho
+DEV-061,VENT-0537,2024-04-14,Defectuoso,Desecho
+DEV-062,VENT-0558,2024-04-09,Retraso en entrega,Reacondicionado
+DEV-063,VENT-0580,2025-11-22,Pedido Incorrecto,Reacondicionado
+DEV-064,VENT-0588,2024-06-16,Retraso en entrega,Reacondicionado
+DEV-065,VENT-0599,2024-01-31,Pedido Incorrecto,Reacondicionado
+DEV-066,VENT-0601,2025-12-07,Pedido Incorrecto,Desecho
+DEV-067,VENT-0609,2024-09-04,Componente Incompatible,Desecho
+DEV-068,VENT-0615,2024-10-17,Componente Incompatible,Reacondicionado
+DEV-069,VENT-0617,2024-10-12,Defectuoso,Desecho
+DEV-070,VENT-0621,2024-11-20,Retraso en entrega,Desecho
+DEV-071,VENT-0628,2024-09-23,Defectuoso,Desecho
+DEV-072,VENT-0639,2026-01-08,Componente Incompatible,Desecho
+DEV-073,VENT-0641,2025-09-15,Pedido Incorrecto,Desecho
+DEV-074,VENT-0648,2026-01-21,Pedido Incorrecto,Desecho
+DEV-075,VENT-0650,2025-06-23,Pedido Incorrecto,Reacondicionado
+DEV-076,VENT-0653,2024-03-07,Retraso en entrega,Reacondicionado
+DEV-077,VENT-0662,2025-02-15,Defectuoso,Reacondicionado
+DEV-078,VENT-0672,2026-02-21,Retraso en entrega,Reacondicionado
+DEV-079,VENT-0704,2024-09-29,Defectuoso,Desecho
+DEV-080,VENT-0705,2024-03-08,Defectuoso,Desecho
+DEV-081,VENT-0707,2024-06-04,Componente Incompatible,Desecho
+DEV-082,VENT-0711,2024-01-19,Retraso en entrega,Desecho
+DEV-083,VENT-0712,2025-06-04,Pedido Incorrecto,Desecho
+DEV-084,VENT-0720,2025-09-18,Defectuoso,Reacondicionado
+DEV-085,VENT-0722,2026-03-09,Retraso en entrega,Reacondicionado
+DEV-086,VENT-0728,2025-07-25,Componente Incompatible,Reacondicionado
+DEV-087,VENT-0737,2025-08-25,Componente Incompatible,Desecho
+DEV-088,VENT-0747,2025-04-06,Retraso en entrega,Reacondicionado
+DEV-089,VENT-0755,2024-05-23,Componente Incompatible,Desecho
+DEV-090,VENT-0776,2024-10-30,Defectuoso,Reacondicionado
+DEV-091,VENT-0792,2026-03-12,Defectuoso,Reacondicionado
+DEV-092,VENT-0799,2026-01-03,Componente Incompatible,Desecho

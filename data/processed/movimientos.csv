@@ -1,0 +1,601 @@
+ID,Tipo,Subtipo,SKU,Cantidad,Almacén Origen,Almacén Destino,Zona Origen,Zona Destino,Documento Referencia,Costo Unitario USD,Valor Total USD,Fecha,Hora,Responsable,Aprobado Por,Estado,Observaciones
+MOV-00001,Reubicación,Compra,SKU-0167,47,ALM-01,ALM-10,C-09,E-20,TR-006,302.53,21152.22,2026-03-03,11:40:29,Juan Pérez,Ana Martínez,Completado,
+MOV-00002,Devolución,Venta,SKU-0051,3,ALM-03,,F-01,,TR-017,426.03,198.77,2024-05-06,08:10:36,Juan Pérez,Pedro Sánchez,Cancelado,
+MOV-00003,Salida,Ajuste de inventario,SKU-0047,21,ALM-07,,D-04,,TR-001,125.67,1445.46,2024-08-20,15:40:12,Juan Pérez,Carlos Gómez,Completado,
+MOV-00004,Ajuste,Transferencia interna,SKU-0167,91,ALM-05,,H-12,,VENT-0481,497.36,33103.87,2025-03-09,10:31:56,María López,Luis Rodríguez,Completado,Verificado
+MOV-00005,Merma,Reclasificación,SKU-0153,48,ALM-05,,A-13,,VENT-0505,340.67,7868.08,2025-02-21,11:14:16,Sofía Hernández,María López,Completado,Verificado
+MOV-00006,Merma,Merma,SKU-0110,71,ALM-06,,D-09,,COMP-0260,347.61,33162.19,2025-07-03,20:35:27,Carlos Gómez,Pedro Sánchez,Pendiente,
+MOV-00007,Ajuste,Devolución proveedor,SKU-0101,39,ALM-04,,C-01,,VENT-0472,286.04,2030.3,2025-06-14,16:57:38,Luis Rodríguez,Ana Martínez,Completado,Urgente
+MOV-00008,Ajuste,Ajuste de inventario,SKU-0198,79,ALM-05,,E-08,,VENT-0441,439.93,5076.0,2025-07-28,00:48:46,Luis Rodríguez,Sofía Hernández,Completado,
+MOV-00009,Merma,Daño,SKU-0009,77,ALM-05,,G-15,,,256.05,13564.62,2024-06-28,19:48:12,Juan Pérez,Laura Torres,Pendiente,
+MOV-00010,Merma,Devolución proveedor,SKU-0126,19,ALM-05,,F-01,,,239.77,3814.96,2025-08-27,11:07:22,Juan Pérez,Carlos Gómez,Completado,
+MOV-00011,Transferencia,Daño,SKU-0006,85,ALM-02,ALM-05,D-11,D-03,VENT-0476,397.3,30514.92,2024-07-08,21:14:52,Ana Martínez,Laura Torres,Cancelado,
+MOV-00012,Salida,Venta,SKU-0021,93,ALM-02,,C-08,,,173.65,41015.02,2026-01-12,12:22:11,Laura Torres,Luis Rodríguez,Completado,Revisar
+MOV-00013,Ajuste,Devolución proveedor,SKU-0173,49,ALM-02,,A-17,,COMP-0187,299.3,17375.58,2024-07-06,11:18:21,María López,Luis Rodríguez,Pendiente,
+MOV-00014,Reubicación,Ajuste de inventario,SKU-0155,81,ALM-06,ALM-02,B-16,E-12,COMP-0184,359.89,29511.7,2024-03-23,13:08:30,Carlos Gómez,María López,Pendiente,Verificado
+MOV-00015,Salida,Merma,SKU-0064,57,ALM-02,,C-03,,VENT-0326,483.5,21295.99,2024-09-13,23:10:48,Pedro Sánchez,Luis Rodríguez,Completado,
+MOV-00016,Reubicación,Devolución cliente,SKU-0109,4,ALM-09,ALM-02,H-13,C-01,TR-002,306.96,350.91,2025-06-10,13:15:01,Ana Martínez,Sofía Hernández,Completado,Verificado
+MOV-00017,Merma,Devolución proveedor,SKU-0127,8,ALM-01,,F-20,,COMP-0303,461.47,2934.04,2024-11-14,13:28:14,María López,Carlos Gómez,Completado,
+MOV-00018,Reubicación,Daño,SKU-0059,100,ALM-09,ALM-01,E-17,F-03,COMP-0337,75.73,21618.38,2025-06-27,07:25:19,Sofía Hernández,Juan Pérez,Completado,Revisar
+MOV-00019,Salida,Ajuste de inventario,SKU-0185,31,ALM-05,,C-16,,TR-012,220.37,4128.03,2024-04-19,19:04:07,Sofía Hernández,Luis Rodríguez,Cancelado,
+MOV-00020,Merma,Ajuste de inventario,SKU-0074,81,ALM-02,,D-10,,VENT-0447,151.26,33047.63,2024-09-21,01:43:41,Carlos Gómez,Laura Torres,Pendiente,
+MOV-00021,Merma,Compra,SKU-0165,14,ALM-07,,C-19,,COMP-0059,225.42,5628.23,2024-11-24,10:51:04,Laura Torres,Ana Martínez,Completado,Revisar
+MOV-00022,Entrada,Venta,SKU-0110,19,ALM-01,,H-08,,,317.17,3054.89,2025-12-02,18:57:04,Sofía Hernández,Laura Torres,Completado,Urgente
+MOV-00023,Ajuste,Venta,SKU-0112,100,ALM-01,,F-05,,TR-022,269.3,24893.19,2025-05-10,09:22:54,María López,Sofía Hernández,Completado,
+MOV-00024,Transferencia,Compra,SKU-0071,41,ALM-03,ALM-01,C-13,D-18,,449.17,15791.12,2024-02-22,09:40:22,Juan Pérez,Carlos Gómez,Cancelado,
+MOV-00025,Devolución,Merma,SKU-0103,58,ALM-01,,D-02,,COMP-0140,172.91,20774.43,2026-02-18,14:43:22,Luis Rodríguez,María López,Cancelado,Urgente
+MOV-00026,Merma,Daño,SKU-0038,31,ALM-09,,B-02,,COMP-0039,250.88,2549.81,2025-03-10,10:06:15,Ana Martínez,Luis Rodríguez,Pendiente,
+MOV-00027,Entrada,Transferencia interna,SKU-0140,40,ALM-01,,B-08,,COMP-0275,212.75,6248.83,2024-06-12,01:49:35,Ana Martínez,María López,Pendiente,Revisar
+MOV-00028,Entrada,Merma,SKU-0186,100,ALM-04,,G-01,,,341.83,36563.62,2025-10-14,07:47:24,Juan Pérez,Laura Torres,Cancelado,Revisar
+MOV-00029,Merma,Merma,SKU-0079,83,ALM-08,,C-02,,COMP-0022,86.36,30248.29,2025-05-12,03:49:03,Laura Torres,Juan Pérez,Pendiente,
+MOV-00030,Ajuste,Devolución proveedor,SKU-0062,35,ALM-01,,F-04,,,288.09,3024.6,2025-07-28,03:56:49,María López,Luis Rodríguez,Completado,
+MOV-00031,Transferencia,Reclasificación,SKU-0094,54,ALM-03,ALM-10,G-12,F-13,TR-006,242.5,4601.41,2025-09-12,14:28:46,María López,Pedro Sánchez,Completado,Verificado
+MOV-00032,Salida,Venta,SKU-0150,46,ALM-03,,G-13,,COMP-0398,472.98,10005.68,2025-02-14,15:13:29,María López,Ana Martínez,Cancelado,Revisar
+MOV-00033,Ajuste,Transferencia interna,SKU-0192,37,ALM-03,,D-10,,VENT-0390,183.7,8359.86,2024-02-17,12:11:31,Pedro Sánchez,Ana Martínez,Completado,
+MOV-00034,Transferencia,Reclasificación,SKU-0175,15,ALM-07,ALM-02,E-06,B-12,COMP-0096,100.71,3428.28,2024-03-14,17:47:26,Ana Martínez,Pedro Sánchez,Completado,Verificado
+MOV-00035,Entrada,Merma,SKU-0065,50,ALM-09,,G-19,,COMP-0262,219.83,15071.49,2024-11-16,07:00:01,Luis Rodríguez,Ana Martínez,Pendiente,Urgente
+MOV-00036,Devolución,Ajuste de inventario,SKU-0165,30,ALM-02,,F-19,,,347.59,3763.51,2025-02-15,01:24:21,Ana Martínez,Luis Rodríguez,Completado,
+MOV-00037,Transferencia,Transferencia interna,SKU-0013,49,ALM-10,ALM-02,B-18,H-06,VENT-0526,265.92,13885.0,2026-01-30,00:05:34,María López,Laura Torres,Cancelado,Verificado
+MOV-00038,Merma,Reclasificación,SKU-0014,62,ALM-09,,E-19,,TR-019,330.93,4686.96,2024-12-08,05:59:55,Carlos Gómez,María López,Pendiente,
+MOV-00039,Entrada,Devolución proveedor,SKU-0072,70,ALM-07,,F-17,,,497.71,31578.65,2025-02-23,00:27:04,Laura Torres,Ana Martínez,Completado,Verificado
+MOV-00040,Reubicación,Ajuste de inventario,SKU-0063,13,ALM-02,ALM-03,H-12,F-15,TR-025,96.51,4140.6,2025-02-21,19:26:13,Laura Torres,María López,Completado,Revisar
+MOV-00041,Reubicación,Compra,SKU-0055,68,ALM-07,ALM-09,C-02,B-07,,241.71,18508.8,2025-12-07,06:50:43,Carlos Gómez,María López,Pendiente,
+MOV-00042,Reubicación,Venta,SKU-0177,25,ALM-04,ALM-02,H-20,F-09,,189.71,8023.08,2025-03-07,01:15:30,Carlos Gómez,Sofía Hernández,Completado,
+MOV-00043,Devolución,Ajuste de inventario,SKU-0199,43,ALM-06,,G-08,,,118.92,18609.33,2025-05-30,23:13:38,Carlos Gómez,Carlos Gómez,Completado,
+MOV-00044,Entrada,Transferencia interna,SKU-0113,35,ALM-06,,B-09,,,418.51,17365.46,2024-03-12,22:12:25,Juan Pérez,María López,Cancelado,Verificado
+MOV-00045,Salida,Devolución proveedor,SKU-0147,77,ALM-05,,B-07,,VENT-0792,193.25,7100.73,2024-09-24,12:13:49,Juan Pérez,Ana Martínez,Completado,Verificado
+MOV-00046,Devolución,Devolución proveedor,SKU-0103,67,ALM-10,,A-19,,VENT-0713,213.06,27116.04,2025-11-08,17:29:08,Luis Rodríguez,Juan Pérez,Cancelado,Urgente
+MOV-00047,Devolución,Venta,SKU-0155,23,ALM-08,,H-07,,,238.34,6410.1,2025-12-20,02:56:13,Ana Martínez,Laura Torres,Completado,Verificado
+MOV-00048,Ajuste,Transferencia interna,SKU-0008,62,ALM-02,,H-08,,COMP-0362,187.53,21247.73,2025-12-10,20:10:47,Luis Rodríguez,María López,Cancelado,Revisar
+MOV-00049,Reubicación,Merma,SKU-0185,30,ALM-04,ALM-03,D-14,F-10,,341.97,5685.05,2024-03-03,08:10:18,Luis Rodríguez,Carlos Gómez,Completado,
+MOV-00050,Merma,Devolución proveedor,SKU-0072,32,ALM-01,,E-15,,,103.11,12196.08,2026-02-11,13:42:04,Sofía Hernández,Pedro Sánchez,Completado,
+MOV-00051,Devolución,Devolución cliente,SKU-0148,37,ALM-08,,F-07,,,453.76,9633.18,2024-04-15,10:19:53,Carlos Gómez,Luis Rodríguez,Completado,
+MOV-00052,Merma,Daño,SKU-0163,80,ALM-03,,G-03,,,339.35,15459.02,2024-02-27,10:39:17,Carlos Gómez,Carlos Gómez,Completado,Urgente
+MOV-00053,Salida,Merma,SKU-0062,62,ALM-07,,G-20,,VENT-0794,155.18,18089.54,2025-01-26,02:36:16,María López,María López,Cancelado,
+MOV-00054,Devolución,Ajuste de inventario,SKU-0174,3,ALM-05,,C-09,,VENT-0647,50.99,723.26,2025-09-28,05:32:47,Ana Martínez,Luis Rodríguez,Pendiente,
+MOV-00055,Salida,Daño,SKU-0077,87,ALM-10,,D-08,,VENT-0214,96.14,41819.14,2025-06-13,16:24:27,Luis Rodríguez,Juan Pérez,Cancelado,Verificado
+MOV-00056,Reubicación,Devolución cliente,SKU-0093,37,ALM-04,ALM-09,C-13,C-18,TR-001,171.04,7511.43,2024-06-28,00:36:55,Sofía Hernández,Carlos Gómez,Cancelado,Urgente
+MOV-00057,Devolución,Devolución cliente,SKU-0160,48,ALM-08,,A-08,,TR-020,177.52,6925.83,2025-09-15,19:06:53,Laura Torres,Pedro Sánchez,Completado,
+MOV-00058,Transferencia,Daño,SKU-0118,16,ALM-04,ALM-01,A-19,F-09,TR-017,145.52,2778.36,2025-07-16,09:47:46,Pedro Sánchez,Pedro Sánchez,Cancelado,Verificado
+MOV-00059,Ajuste,Devolución cliente,SKU-0116,76,ALM-08,,A-14,,,442.48,33435.56,2025-07-05,13:37:03,María López,Luis Rodríguez,Cancelado,Verificado
+MOV-00060,Entrada,Ajuste de inventario,SKU-0021,4,ALM-09,,E-15,,TR-013,423.17,953.9,2026-02-15,23:20:00,Sofía Hernández,María López,Cancelado,Urgente
+MOV-00061,Devolución,Venta,SKU-0109,3,ALM-07,,H-10,,COMP-0134,141.98,1087.3,2025-12-03,11:39:56,Pedro Sánchez,Sofía Hernández,Completado,
+MOV-00062,Transferencia,Devolución proveedor,SKU-0195,3,ALM-07,ALM-07,D-16,F-10,VENT-0139,455.56,1223.8,2025-10-23,13:04:30,Carlos Gómez,Sofía Hernández,Pendiente,
+MOV-00063,Transferencia,Compra,SKU-0009,17,ALM-04,ALM-09,F-16,G-06,,333.13,6668.52,2024-12-04,07:33:41,Luis Rodríguez,Ana Martínez,Pendiente,Revisar
+MOV-00064,Reubicación,Ajuste de inventario,SKU-0014,86,ALM-06,ALM-09,F-08,A-03,COMP-0012,247.67,26672.69,2025-01-29,19:21:05,Ana Martínez,Juan Pérez,Completado,Urgente
+MOV-00065,Devolución,Reclasificación,SKU-0095,19,ALM-08,,F-17,,,451.19,4261.34,2025-12-26,13:09:03,Ana Martínez,Pedro Sánchez,Completado,
+MOV-00066,Transferencia,Devolución cliente,SKU-0175,37,ALM-07,ALM-09,G-08,D-04,COMP-0276,138.28,8023.55,2024-08-04,21:26:05,Laura Torres,Juan Pérez,Pendiente,
+MOV-00067,Reubicación,Devolución cliente,SKU-0032,58,ALM-06,ALM-08,H-14,C-14,TR-008,250.02,11073.52,2024-11-04,01:32:39,Laura Torres,Laura Torres,Completado,Verificado
+MOV-00068,Reubicación,Devolución cliente,SKU-0096,79,ALM-04,ALM-05,F-05,F-07,VENT-0768,445.18,34850.52,2024-10-06,07:30:24,Laura Torres,Pedro Sánchez,Cancelado,Verificado
+MOV-00069,Transferencia,Compra,SKU-0007,34,ALM-08,ALM-07,H-12,B-10,COMP-0306,184.12,2863.28,2024-06-02,15:49:13,Ana Martínez,Juan Pérez,Cancelado,Revisar
+MOV-00070,Entrada,Compra,SKU-0009,83,ALM-10,,E-02,,VENT-0382,376.69,9753.07,2026-01-04,23:18:46,Luis Rodríguez,Sofía Hernández,Completado,Revisar
+MOV-00071,Reubicación,Merma,SKU-0086,84,ALM-06,ALM-04,F-06,D-05,,437.77,5591.76,2025-11-03,14:01:54,María López,María López,Completado,Urgente
+MOV-00072,Salida,Devolución proveedor,SKU-0079,75,ALM-07,,B-03,,TR-025,425.1,37284.62,2026-02-10,02:35:06,Sofía Hernández,Ana Martínez,Pendiente,
+MOV-00073,Ajuste,Devolución cliente,SKU-0110,10,ALM-08,,H-14,,TR-021,280.0,3510.18,2024-11-15,08:46:29,Pedro Sánchez,Pedro Sánchez,Pendiente,Revisar
+MOV-00074,Salida,Devolución proveedor,SKU-0182,79,ALM-03,,F-13,,VENT-0615,57.55,26769.68,2024-01-17,02:17:45,Carlos Gómez,Ana Martínez,Completado,
+MOV-00075,Merma,Transferencia interna,SKU-0047,74,ALM-08,,G-10,,TR-009,356.18,24450.62,2025-12-22,13:11:58,Carlos Gómez,María López,Completado,
+MOV-00076,Transferencia,Daño,SKU-0018,28,ALM-07,ALM-07,A-10,H-10,,164.0,10638.73,2024-03-31,16:21:10,Luis Rodríguez,Laura Torres,Completado,
+MOV-00077,Reubicación,Devolución proveedor,SKU-0033,1,ALM-10,ALM-05,E-04,A-06,TR-017,340.31,427.24,2024-07-11,02:34:58,Pedro Sánchez,Pedro Sánchez,Completado,Verificado
+MOV-00078,Ajuste,Venta,SKU-0078,13,ALM-04,,F-03,,,113.61,3657.58,2024-07-27,06:17:57,Pedro Sánchez,Sofía Hernández,Cancelado,
+MOV-00079,Transferencia,Daño,SKU-0054,80,ALM-06,ALM-03,B-16,F-11,VENT-0635,367.65,28387.0,2025-06-23,02:58:10,Pedro Sánchez,Sofía Hernández,Completado,Revisar
+MOV-00080,Reubicación,Devolución proveedor,SKU-0029,49,ALM-10,ALM-03,D-18,D-04,,296.48,18248.31,2025-04-16,01:46:03,Ana Martínez,María López,Completado,Verificado
+MOV-00081,Salida,Transferencia interna,SKU-0067,17,ALM-05,,C-04,,TR-012,385.05,2702.54,2025-12-21,01:53:37,María López,Carlos Gómez,Completado,Revisar
+MOV-00082,Transferencia,Devolución cliente,SKU-0040,61,ALM-02,ALM-02,E-13,B-07,VENT-0086,213.1,26354.36,2024-07-16,02:20:14,Juan Pérez,Ana Martínez,Completado,
+MOV-00083,Transferencia,Daño,SKU-0003,58,ALM-02,ALM-02,A-20,G-12,VENT-0563,193.9,13516.89,2025-03-27,22:27:15,Luis Rodríguez,Sofía Hernández,Completado,
+MOV-00084,Reubicación,Venta,SKU-0143,95,ALM-03,ALM-07,E-11,C-02,,470.72,43967.18,2024-07-07,03:01:26,María López,Pedro Sánchez,Pendiente,Urgente
+MOV-00085,Devolución,Daño,SKU-0024,3,ALM-03,,C-09,,TR-004,291.0,713.49,2024-03-01,16:59:08,Carlos Gómez,María López,Pendiente,
+MOV-00086,Merma,Merma,SKU-0103,22,ALM-10,,G-05,,VENT-0542,273.46,9016.35,2025-10-27,22:05:47,Juan Pérez,Juan Pérez,Completado,Revisar
+MOV-00087,Salida,Devolución proveedor,SKU-0036,85,ALM-08,,C-05,,,366.56,10289.7,2025-10-11,00:02:41,Laura Torres,Luis Rodríguez,Cancelado,
+MOV-00088,Devolución,Devolución cliente,SKU-0127,95,ALM-04,,H-04,,,182.86,12712.89,2024-05-11,22:51:02,Sofía Hernández,Juan Pérez,Completado,Urgente
+MOV-00089,Devolución,Compra,SKU-0103,3,ALM-05,,A-06,,TR-001,402.43,1293.72,2025-01-24,15:16:28,Pedro Sánchez,Sofía Hernández,Completado,Urgente
+MOV-00090,Devolución,Daño,SKU-0006,33,ALM-10,,F-14,,COMP-0201,65.87,15023.61,2024-03-26,10:40:53,Sofía Hernández,Pedro Sánchez,Completado,
+MOV-00091,Devolución,Daño,SKU-0144,63,ALM-09,,H-13,,COMP-0178,83.33,14188.15,2025-06-27,01:26:41,Carlos Gómez,Carlos Gómez,Cancelado,
+MOV-00092,Entrada,Daño,SKU-0026,94,ALM-07,,A-09,,TR-009,456.15,8068.84,2024-07-17,18:39:00,Ana Martínez,Juan Pérez,Completado,
+MOV-00093,Entrada,Devolución cliente,SKU-0195,93,ALM-09,,F-08,,VENT-0173,188.62,29304.73,2026-01-17,03:16:29,Juan Pérez,Sofía Hernández,Completado,
+MOV-00094,Ajuste,Devolución proveedor,SKU-0033,72,ALM-02,,G-16,,VENT-0655,377.92,7685.46,2024-09-02,23:25:31,Juan Pérez,Luis Rodríguez,Cancelado,Revisar
+MOV-00095,Ajuste,Merma,SKU-0161,68,ALM-06,,G-05,,COMP-0304,442.69,8260.82,2026-02-05,05:45:34,Juan Pérez,María López,Cancelado,
+MOV-00096,Salida,Compra,SKU-0063,48,ALM-07,,F-14,,TR-010,268.23,11245.29,2024-08-02,15:32:01,Pedro Sánchez,Luis Rodríguez,Completado,Revisar
+MOV-00097,Salida,Devolución cliente,SKU-0123,35,ALM-10,,F-19,,,153.97,11769.81,2026-01-21,02:30:20,Sofía Hernández,Sofía Hernández,Cancelado,Urgente
+MOV-00098,Salida,Reclasificación,SKU-0129,90,ALM-05,,H-09,,VENT-0703,486.83,20123.75,2025-09-29,05:27:28,Sofía Hernández,María López,Completado,Revisar
+MOV-00099,Devolución,Devolución proveedor,SKU-0127,55,ALM-04,,E-20,,,395.38,22021.58,2024-09-20,13:19:56,María López,Pedro Sánchez,Pendiente,Revisar
+MOV-00100,Devolución,Compra,SKU-0110,31,ALM-01,,D-12,,,425.78,7074.24,2026-01-09,06:53:02,María López,Sofía Hernández,Cancelado,Verificado
+MOV-00101,Merma,Devolución cliente,SKU-0164,20,ALM-03,,C-17,,COMP-0144,187.39,6965.37,2024-06-25,05:30:24,Pedro Sánchez,Juan Pérez,Cancelado,Urgente
+MOV-00102,Devolución,Compra,SKU-0197,33,ALM-02,,A-09,,VENT-0209,299.1,2719.04,2025-03-22,10:55:14,Laura Torres,Ana Martínez,Completado,Revisar
+MOV-00103,Ajuste,Venta,SKU-0103,96,ALM-06,,F-09,,VENT-0427,160.27,11463.21,2025-05-12,12:02:39,Pedro Sánchez,Laura Torres,Completado,Urgente
+MOV-00104,Reubicación,Transferencia interna,SKU-0104,82,ALM-08,ALM-03,A-11,D-13,,98.19,29593.25,2025-12-18,22:33:52,Sofía Hernández,Pedro Sánchez,Pendiente,Urgente
+MOV-00105,Merma,Devolución proveedor,SKU-0175,20,ALM-01,,C-03,,COMP-0183,300.69,8748.06,2025-05-28,21:31:29,Sofía Hernández,Sofía Hernández,Cancelado,
+MOV-00106,Entrada,Merma,SKU-0041,50,ALM-05,,D-20,,VENT-0408,179.86,11397.04,2024-07-05,14:35:39,Juan Pérez,Laura Torres,Completado,
+MOV-00107,Merma,Venta,SKU-0145,90,ALM-10,,B-15,,,118.93,31942.24,2025-08-06,08:19:06,Luis Rodríguez,Carlos Gómez,Completado,
+MOV-00108,Merma,Daño,SKU-0026,55,ALM-03,,D-17,,TR-011,172.45,13762.3,2024-10-09,11:24:49,Sofía Hernández,Juan Pérez,Pendiente,
+MOV-00109,Transferencia,Devolución cliente,SKU-0084,39,ALM-04,ALM-05,D-14,H-16,COMP-0053,477.84,14689.97,2026-01-12,18:17:49,Juan Pérez,Laura Torres,Pendiente,Urgente
+MOV-00110,Salida,Ajuste de inventario,SKU-0077,15,ALM-06,,H-15,,,99.41,7160.79,2024-12-20,20:16:29,Laura Torres,Ana Martínez,Completado,Revisar
+MOV-00111,Transferencia,Devolución cliente,SKU-0062,85,ALM-09,ALM-08,C-06,F-12,TR-011,164.55,12789.34,2024-03-14,08:41:46,Laura Torres,Luis Rodríguez,Completado,Verificado
+MOV-00112,Devolución,Reclasificación,SKU-0085,84,ALM-04,,F-05,,VENT-0149,485.03,17411.78,2025-01-18,00:53:49,Sofía Hernández,Laura Torres,Cancelado,
+MOV-00113,Reubicación,Venta,SKU-0125,47,ALM-07,ALM-07,A-05,E-04,COMP-0398,157.25,18036.18,2025-05-28,20:50:40,Luis Rodríguez,Laura Torres,Completado,
+MOV-00114,Entrada,Merma,SKU-0120,14,ALM-10,,H-04,,TR-016,374.16,5781.81,2024-09-14,22:15:18,María López,Sofía Hernández,Completado,Revisar
+MOV-00115,Transferencia,Ajuste de inventario,SKU-0011,67,ALM-08,ALM-05,F-13,A-04,TR-007,95.35,5696.67,2025-12-30,11:39:43,Juan Pérez,Juan Pérez,Completado,Verificado
+MOV-00116,Merma,Devolución cliente,SKU-0010,50,ALM-10,,A-16,,COMP-0279,474.87,9533.52,2025-04-16,21:06:25,Carlos Gómez,María López,Completado,Revisar
+MOV-00117,Reubicación,Daño,SKU-0200,31,ALM-10,ALM-07,H-13,D-12,COMP-0102,215.61,10949.6,2025-11-11,11:45:33,Pedro Sánchez,Juan Pérez,Pendiente,
+MOV-00118,Ajuste,Daño,SKU-0033,18,ALM-04,,E-03,,,388.98,5857.94,2025-06-30,02:17:12,Juan Pérez,Laura Torres,Completado,
+MOV-00119,Ajuste,Ajuste de inventario,SKU-0163,40,ALM-07,,G-08,,TR-023,248.73,16763.31,2025-09-21,02:44:17,Juan Pérez,Ana Martínez,Completado,Urgente
+MOV-00120,Entrada,Ajuste de inventario,SKU-0117,87,ALM-06,,G-12,,,281.15,42494.21,2026-01-08,10:11:42,Pedro Sánchez,Ana Martínez,Pendiente,Revisar
+MOV-00121,Transferencia,Transferencia interna,SKU-0182,100,ALM-09,ALM-09,G-14,B-03,COMP-0065,408.54,12481.11,2024-03-10,08:40:42,Carlos Gómez,Sofía Hernández,Completado,Verificado
+MOV-00122,Entrada,Daño,SKU-0028,75,ALM-10,,C-11,,VENT-0314,253.18,12663.58,2025-05-15,20:17:24,Sofía Hernández,Ana Martínez,Completado,
+MOV-00123,Merma,Venta,SKU-0082,36,ALM-02,,B-18,,VENT-0783,88.4,7989.15,2024-10-20,14:12:32,Juan Pérez,Sofía Hernández,Completado,
+MOV-00124,Salida,Daño,SKU-0142,83,ALM-02,,D-15,,VENT-0440,401.15,24209.11,2025-10-20,08:55:31,María López,Luis Rodríguez,Pendiente,Urgente
+MOV-00125,Salida,Devolución cliente,SKU-0043,4,ALM-09,,D-07,,,454.73,400.33,2024-03-17,14:10:34,Ana Martínez,Pedro Sánchez,Completado,
+MOV-00126,Entrada,Merma,SKU-0131,62,ALM-05,,H-16,,,496.12,21553.07,2026-03-07,15:27:06,Ana Martínez,Laura Torres,Pendiente,
+MOV-00127,Merma,Reclasificación,SKU-0155,48,ALM-07,,H-03,,,274.54,3302.81,2024-01-03,17:33:54,Pedro Sánchez,Juan Pérez,Completado,
+MOV-00128,Devolución,Compra,SKU-0100,74,ALM-04,,C-13,,TR-011,165.52,17999.01,2024-08-15,09:06:37,María López,Pedro Sánchez,Completado,
+MOV-00129,Merma,Compra,SKU-0176,97,ALM-07,,E-19,,TR-024,340.33,14866.28,2024-08-24,04:21:52,María López,Laura Torres,Completado,
+MOV-00130,Devolución,Daño,SKU-0018,95,ALM-10,,B-07,,TR-005,259.05,5210.62,2025-01-17,08:11:07,Sofía Hernández,Ana Martínez,Completado,Revisar
+MOV-00131,Salida,Transferencia interna,SKU-0164,51,ALM-06,,C-13,,,240.55,19417.57,2026-01-16,00:35:45,Laura Torres,Sofía Hernández,Completado,Revisar
+MOV-00132,Entrada,Ajuste de inventario,SKU-0037,78,ALM-06,,D-17,,,51.92,16609.28,2024-08-25,07:56:51,Sofía Hernández,María López,Pendiente,
+MOV-00133,Transferencia,Ajuste de inventario,SKU-0065,49,ALM-06,ALM-02,A-06,B-10,COMP-0025,459.9,7842.18,2025-08-10,02:36:21,Sofía Hernández,Laura Torres,Cancelado,Revisar
+MOV-00134,Entrada,Reclasificación,SKU-0057,44,ALM-02,,H-16,,,136.51,9038.91,2026-02-15,16:28:58,Juan Pérez,Luis Rodríguez,Completado,
+MOV-00135,Transferencia,Devolución proveedor,SKU-0179,49,ALM-02,ALM-07,E-18,D-18,COMP-0303,251.7,14767.47,2024-01-05,03:48:35,Laura Torres,Pedro Sánchez,Pendiente,Verificado
+MOV-00136,Reubicación,Compra,SKU-0171,56,ALM-07,ALM-05,D-10,F-19,COMP-0367,429.24,18904.13,2024-03-03,15:48:15,Juan Pérez,Ana Martínez,Completado,
+MOV-00137,Transferencia,Reclasificación,SKU-0149,54,ALM-06,ALM-08,E-11,B-01,,313.99,19732.1,2026-02-05,14:46:51,Ana Martínez,María López,Cancelado,
+MOV-00138,Transferencia,Devolución cliente,SKU-0100,3,ALM-03,ALM-08,A-15,F-19,TR-016,424.38,292.0,2024-12-15,01:30:36,Laura Torres,Pedro Sánchez,Completado,Verificado
+MOV-00139,Transferencia,Devolución proveedor,SKU-0075,87,ALM-07,ALM-06,H-05,H-05,COMP-0086,183.22,17576.96,2026-01-31,21:01:48,Ana Martínez,Juan Pérez,Cancelado,Revisar
+MOV-00140,Transferencia,Devolución proveedor,SKU-0176,49,ALM-07,ALM-01,G-13,C-14,COMP-0035,469.17,19688.42,2025-06-25,15:02:39,Laura Torres,Laura Torres,Pendiente,Verificado
+MOV-00141,Devolución,Ajuste de inventario,SKU-0096,60,ALM-10,,G-05,,TR-016,315.17,26742.23,2024-02-11,14:04:42,María López,Juan Pérez,Pendiente,
+MOV-00142,Transferencia,Merma,SKU-0032,17,ALM-03,ALM-03,A-14,C-10,COMP-0104,357.98,6788.82,2025-07-21,01:50:09,Ana Martínez,Ana Martínez,Completado,
+MOV-00143,Ajuste,Compra,SKU-0006,52,ALM-07,,E-08,,VENT-0003,344.46,7063.06,2025-12-26,14:34:56,Pedro Sánchez,Sofía Hernández,Completado,Revisar
+MOV-00144,Transferencia,Devolución proveedor,SKU-0024,18,ALM-04,ALM-08,A-02,G-09,VENT-0544,179.27,4778.9,2025-06-01,10:15:06,María López,Juan Pérez,Completado,
+MOV-00145,Transferencia,Daño,SKU-0090,40,ALM-01,ALM-06,D-15,G-10,,265.85,17473.52,2024-05-26,13:35:33,Laura Torres,Pedro Sánchez,Completado,Urgente
+MOV-00146,Salida,Transferencia interna,SKU-0011,30,ALM-03,,B-08,,,329.64,11180.6,2026-01-09,10:35:25,Pedro Sánchez,Ana Martínez,Cancelado,Revisar
+MOV-00147,Merma,Daño,SKU-0034,70,ALM-08,,C-17,,,163.22,8461.42,2025-04-28,09:36:23,Pedro Sánchez,Carlos Gómez,Cancelado,
+MOV-00148,Ajuste,Devolución cliente,SKU-0171,74,ALM-05,,B-14,,COMP-0005,293.86,20568.4,2025-02-05,15:00:01,Sofía Hernández,María López,Completado,
+MOV-00149,Devolución,Venta,SKU-0125,40,ALM-03,,A-05,,,87.02,17974.05,2024-12-12,11:19:23,Luis Rodríguez,María López,Pendiente,
+MOV-00150,Devolución,Venta,SKU-0128,80,ALM-01,,E-13,,VENT-0135,342.61,4644.63,2024-05-20,03:22:10,Pedro Sánchez,Laura Torres,Completado,
+MOV-00151,Salida,Merma,SKU-0014,30,ALM-01,,H-18,,COMP-0393,140.75,9233.68,2026-01-08,11:32:31,Carlos Gómez,Ana Martínez,Cancelado,
+MOV-00152,Ajuste,Compra,SKU-0137,91,ALM-07,,A-03,,COMP-0133,153.1,20984.71,2025-10-21,02:17:47,Sofía Hernández,María López,Cancelado,Urgente
+MOV-00153,Ajuste,Compra,SKU-0002,13,ALM-02,,G-16,,COMP-0312,62.47,1405.39,2025-01-08,02:36:08,Juan Pérez,María López,Cancelado,
+MOV-00154,Devolución,Transferencia interna,SKU-0186,93,ALM-04,,D-05,,VENT-0461,308.91,40264.21,2024-12-27,15:37:21,Carlos Gómez,María López,Completado,Revisar
+MOV-00155,Merma,Venta,SKU-0096,42,ALM-07,,D-20,,VENT-0455,320.69,20500.96,2024-05-07,14:21:53,Laura Torres,Luis Rodríguez,Completado,
+MOV-00156,Salida,Ajuste de inventario,SKU-0077,72,ALM-10,,G-06,,,282.71,21271.4,2025-04-23,22:04:11,Luis Rodríguez,Laura Torres,Pendiente,
+MOV-00157,Reubicación,Reclasificación,SKU-0166,56,ALM-08,ALM-03,E-10,D-10,VENT-0645,330.19,14453.48,2025-12-26,15:10:38,Pedro Sánchez,Sofía Hernández,Pendiente,
+MOV-00158,Transferencia,Devolución cliente,SKU-0104,97,ALM-04,ALM-09,A-06,A-08,,338.32,10322.01,2025-12-29,15:37:55,Pedro Sánchez,Juan Pérez,Completado,Urgente
+MOV-00159,Entrada,Venta,SKU-0146,37,ALM-07,,F-16,,COMP-0117,179.59,4643.75,2024-01-10,12:44:49,Carlos Gómez,Carlos Gómez,Completado,
+MOV-00160,Devolución,Merma,SKU-0040,5,ALM-10,,D-02,,VENT-0779,465.33,1666.44,2024-08-14,01:58:06,Sofía Hernández,Carlos Gómez,Pendiente,
+MOV-00161,Entrada,Reclasificación,SKU-0182,15,ALM-03,,C-13,,TR-009,482.0,2965.75,2026-02-09,18:50:00,Juan Pérez,María López,Cancelado,
+MOV-00162,Salida,Devolución proveedor,SKU-0157,29,ALM-10,,E-15,,COMP-0157,425.33,14014.89,2024-08-10,20:48:20,Pedro Sánchez,Pedro Sánchez,Pendiente,Verificado
+MOV-00163,Reubicación,Compra,SKU-0022,46,ALM-03,ALM-03,G-06,E-15,TR-008,196.0,3184.02,2024-09-12,06:09:38,Juan Pérez,Juan Pérez,Completado,Verificado
+MOV-00164,Transferencia,Devolución cliente,SKU-0117,53,ALM-05,ALM-03,H-17,H-08,VENT-0723,166.91,25029.42,2024-03-10,22:58:18,Carlos Gómez,Ana Martínez,Completado,Verificado
+MOV-00165,Devolución,Compra,SKU-0127,77,ALM-07,,H-12,,COMP-0138,187.6,11861.0,2024-05-27,18:25:37,Juan Pérez,Luis Rodríguez,Completado,
+MOV-00166,Merma,Transferencia interna,SKU-0200,86,ALM-06,,C-17,,COMP-0241,200.47,11967.55,2025-08-27,16:06:57,Ana Martínez,Ana Martínez,Completado,Verificado
+MOV-00167,Salida,Ajuste de inventario,SKU-0071,44,ALM-01,,C-08,,COMP-0217,118.64,17211.43,2024-09-11,08:01:40,Sofía Hernández,Ana Martínez,Pendiente,
+MOV-00168,Entrada,Compra,SKU-0062,30,ALM-06,,B-13,,COMP-0025,196.99,12554.52,2024-12-21,15:45:05,Sofía Hernández,Sofía Hernández,Completado,Revisar
+MOV-00169,Reubicación,Devolución cliente,SKU-0128,7,ALM-01,ALM-05,C-05,E-11,,317.18,842.25,2025-08-24,11:54:05,Carlos Gómez,Sofía Hernández,Completado,Revisar
+MOV-00170,Reubicación,Daño,SKU-0010,63,ALM-02,ALM-10,B-08,F-01,COMP-0179,378.15,11940.21,2026-02-28,08:59:48,María López,Laura Torres,Completado,
+MOV-00171,Merma,Devolución proveedor,SKU-0128,97,ALM-08,,B-13,,COMP-0222,491.3,22728.15,2024-11-17,00:53:50,Pedro Sánchez,María López,Pendiente,
+MOV-00172,Reubicación,Daño,SKU-0020,86,ALM-06,ALM-07,D-11,C-01,TR-015,472.8,16399.97,2025-11-16,09:09:03,Sofía Hernández,Pedro Sánchez,Cancelado,
+MOV-00173,Merma,Reclasificación,SKU-0167,54,ALM-08,,B-10,,TR-007,60.79,25378.5,2025-09-01,01:47:48,Juan Pérez,María López,Completado,
+MOV-00174,Transferencia,Venta,SKU-0196,97,ALM-01,ALM-04,C-16,B-18,VENT-0213,409.66,43953.03,2025-03-03,21:07:24,Ana Martínez,María López,Pendiente,Revisar
+MOV-00175,Ajuste,Devolución proveedor,SKU-0182,69,ALM-02,,F-14,,,347.38,15305.18,2026-01-21,12:48:35,Carlos Gómez,Pedro Sánchez,Pendiente,
+MOV-00176,Devolución,Transferencia interna,SKU-0009,2,ALM-08,,C-01,,,352.95,949.28,2025-05-05,09:28:09,Ana Martínez,Laura Torres,Completado,
+MOV-00177,Ajuste,Daño,SKU-0073,3,ALM-04,,A-18,,TR-025,321.65,1435.6,2025-04-22,16:48:38,Sofía Hernández,María López,Completado,
+MOV-00178,Transferencia,Merma,SKU-0156,71,ALM-08,ALM-02,E-13,H-09,TR-014,287.08,26656.81,2024-07-28,14:23:04,Sofía Hernández,Laura Torres,Completado,
+MOV-00179,Ajuste,Compra,SKU-0078,46,ALM-06,,F-13,,,276.7,21263.37,2025-03-17,20:28:13,Carlos Gómez,Juan Pérez,Completado,
+MOV-00180,Transferencia,Devolución proveedor,SKU-0136,45,ALM-04,ALM-04,H-16,H-08,,220.34,16172.13,2025-03-14,15:06:37,Carlos Gómez,Pedro Sánchez,Completado,
+MOV-00181,Transferencia,Transferencia interna,SKU-0141,62,ALM-01,ALM-02,C-09,A-05,VENT-0298,60.7,4712.72,2025-11-20,10:18:37,Juan Pérez,Juan Pérez,Cancelado,Revisar
+MOV-00182,Devolución,Merma,SKU-0054,73,ALM-08,,D-17,,VENT-0490,219.88,16518.26,2025-05-22,00:12:51,Luis Rodríguez,Ana Martínez,Cancelado,
+MOV-00183,Reubicación,Compra,SKU-0172,8,ALM-10,ALM-02,E-08,F-06,COMP-0315,493.66,2170.19,2024-01-29,22:17:06,Laura Torres,Pedro Sánchez,Completado,
+MOV-00184,Ajuste,Daño,SKU-0194,50,ALM-10,,H-07,,TR-017,120.54,10078.53,2024-06-05,14:49:20,Pedro Sánchez,Juan Pérez,Completado,
+MOV-00185,Salida,Ajuste de inventario,SKU-0064,5,ALM-05,,A-12,,TR-015,433.9,2445.09,2024-05-12,03:11:23,María López,Sofía Hernández,Cancelado,Revisar
+MOV-00186,Merma,Daño,SKU-0012,34,ALM-03,,A-11,,TR-013,69.55,9996.65,2024-04-14,03:54:11,Ana Martínez,Carlos Gómez,Pendiente,Revisar
+MOV-00187,Devolución,Reclasificación,SKU-0076,99,ALM-10,,A-19,,TR-007,87.3,11210.84,2024-10-09,12:39:20,Luis Rodríguez,Luis Rodríguez,Completado,
+MOV-00188,Entrada,Daño,SKU-0038,21,ALM-03,,E-18,,,159.94,5411.08,2024-09-22,14:04:19,Sofía Hernández,Juan Pérez,Completado,
+MOV-00189,Reubicación,Transferencia interna,SKU-0029,69,ALM-07,ALM-07,B-09,B-20,TR-022,52.88,6097.63,2024-02-02,08:29:59,María López,María López,Completado,Revisar
+MOV-00190,Reubicación,Devolución proveedor,SKU-0158,17,ALM-07,ALM-10,C-10,H-14,COMP-0287,180.26,8261.49,2026-01-21,07:16:05,Luis Rodríguez,María López,Completado,
+MOV-00191,Devolución,Venta,SKU-0027,15,ALM-05,,A-11,,COMP-0044,120.46,5044.22,2025-07-29,14:55:37,Juan Pérez,Luis Rodríguez,Completado,Verificado
+MOV-00192,Entrada,Compra,SKU-0129,47,ALM-10,,E-02,,VENT-0465,347.26,12995.4,2025-02-28,16:13:04,Juan Pérez,Ana Martínez,Completado,
+MOV-00193,Reubicación,Devolución cliente,SKU-0091,98,ALM-06,ALM-08,C-05,H-11,VENT-0484,405.75,24965.23,2025-02-03,08:01:14,Ana Martínez,Laura Torres,Completado,
+MOV-00194,Devolución,Daño,SKU-0161,75,ALM-08,,A-20,,,368.61,17019.97,2025-09-20,19:18:05,Carlos Gómez,Pedro Sánchez,Completado,
+MOV-00195,Entrada,Transferencia interna,SKU-0099,3,ALM-07,,H-12,,,206.46,1399.37,2024-08-17,12:15:05,Juan Pérez,María López,Completado,Revisar
+MOV-00196,Devolución,Devolución cliente,SKU-0104,83,ALM-07,,B-06,,,224.82,14929.97,2024-12-06,01:17:28,Luis Rodríguez,Pedro Sánchez,Pendiente,Revisar
+MOV-00197,Transferencia,Daño,SKU-0144,49,ALM-10,ALM-05,E-17,B-15,TR-008,413.66,3009.04,2026-03-04,01:58:57,Laura Torres,Laura Torres,Completado,
+MOV-00198,Ajuste,Reclasificación,SKU-0125,98,ALM-06,,E-20,,TR-002,287.51,9779.58,2024-08-15,02:28:06,Pedro Sánchez,Juan Pérez,Completado,
+MOV-00199,Devolución,Devolución cliente,SKU-0007,22,ALM-05,,E-03,,TR-019,251.48,3351.75,2024-04-05,07:42:42,Luis Rodríguez,Pedro Sánchez,Completado,
+MOV-00200,Salida,Reclasificación,SKU-0059,73,ALM-01,,D-08,,,190.0,26471.94,2024-04-21,18:37:11,Pedro Sánchez,Pedro Sánchez,Completado,
+MOV-00201,Merma,Reclasificación,SKU-0099,92,ALM-08,,D-04,,VENT-0222,393.51,33351.08,2024-04-24,04:17:32,Laura Torres,Carlos Gómez,Completado,Urgente
+MOV-00202,Reubicación,Merma,SKU-0144,45,ALM-06,ALM-04,C-16,G-18,VENT-0680,365.58,22318.42,2025-06-22,07:17:36,Ana Martínez,María López,Pendiente,Revisar
+MOV-00203,Ajuste,Compra,SKU-0113,5,ALM-06,,F-18,,COMP-0329,421.14,1290.64,2025-03-16,04:07:56,María López,Pedro Sánchez,Completado,
+MOV-00204,Entrada,Daño,SKU-0101,90,ALM-10,,D-12,,VENT-0270,230.29,37694.22,2025-08-24,17:44:38,Laura Torres,Juan Pérez,Completado,
+MOV-00205,Merma,Devolución proveedor,SKU-0161,83,ALM-08,,A-08,,VENT-0735,347.64,21907.54,2024-12-01,03:46:34,Pedro Sánchez,Pedro Sánchez,Cancelado,
+MOV-00206,Transferencia,Compra,SKU-0083,17,ALM-06,ALM-01,C-13,A-01,,350.25,6586.32,2025-09-10,02:52:20,Pedro Sánchez,María López,Pendiente,
+MOV-00207,Reubicación,Daño,SKU-0150,59,ALM-05,ALM-05,B-05,B-08,COMP-0001,344.82,8079.92,2024-07-16,09:42:24,Juan Pérez,Pedro Sánchez,Pendiente,
+MOV-00208,Salida,Compra,SKU-0173,28,ALM-05,,E-17,,TR-022,476.91,4487.15,2024-03-16,13:54:57,Sofía Hernández,Sofía Hernández,Pendiente,
+MOV-00209,Devolución,Daño,SKU-0036,17,ALM-09,,C-05,,,286.82,8377.98,2024-03-14,09:07:30,Pedro Sánchez,María López,Completado,
+MOV-00210,Salida,Venta,SKU-0049,53,ALM-07,,D-14,,,236.22,13679.23,2024-09-25,08:00:53,Ana Martínez,Carlos Gómez,Completado,Revisar
+MOV-00211,Merma,Ajuste de inventario,SKU-0018,92,ALM-03,,F-05,,TR-021,412.27,42336.49,2025-08-08,05:24:56,Ana Martínez,Laura Torres,Cancelado,
+MOV-00212,Devolución,Transferencia interna,SKU-0160,73,ALM-03,,F-06,,VENT-0425,166.16,26112.64,2024-11-24,08:48:15,Pedro Sánchez,Pedro Sánchez,Cancelado,
+MOV-00213,Reubicación,Ajuste de inventario,SKU-0030,10,ALM-04,ALM-01,G-09,A-20,VENT-0533,302.87,2655.06,2024-11-12,10:20:44,Sofía Hernández,Juan Pérez,Pendiente,Urgente
+MOV-00214,Salida,Reclasificación,SKU-0200,62,ALM-10,,A-06,,COMP-0183,57.12,23459.62,2025-06-27,12:15:29,Carlos Gómez,María López,Pendiente,
+MOV-00215,Merma,Compra,SKU-0102,51,ALM-04,,C-07,,,290.83,2704.07,2026-01-12,19:20:22,Laura Torres,Laura Torres,Completado,Urgente
+MOV-00216,Ajuste,Devolución proveedor,SKU-0147,26,ALM-08,,F-12,,COMP-0035,164.69,6581.84,2025-09-08,21:05:04,María López,Laura Torres,Completado,Verificado
+MOV-00217,Ajuste,Daño,SKU-0004,28,ALM-07,,C-12,,TR-015,96.83,3419.94,2025-12-28,17:18:46,Carlos Gómez,Ana Martínez,Completado,
+MOV-00218,Reubicación,Devolución proveedor,SKU-0004,70,ALM-07,ALM-04,A-17,C-19,COMP-0086,280.07,10529.91,2024-02-13,05:51:07,Juan Pérez,Laura Torres,Cancelado,Revisar
+MOV-00219,Salida,Reclasificación,SKU-0022,22,ALM-04,,G-12,,VENT-0298,117.21,1126.43,2025-10-13,04:00:04,Laura Torres,Juan Pérez,Cancelado,
+MOV-00220,Salida,Venta,SKU-0140,61,ALM-07,,C-16,,COMP-0314,333.15,12005.48,2024-09-16,05:39:46,Sofía Hernández,Sofía Hernández,Completado,
+MOV-00221,Merma,Devolución proveedor,SKU-0182,3,ALM-02,,A-17,,VENT-0634,369.5,323.91,2024-01-19,05:13:44,Juan Pérez,Juan Pérez,Completado,Verificado
+MOV-00222,Entrada,Ajuste de inventario,SKU-0116,18,ALM-06,,A-05,,COMP-0382,51.27,8225.76,2024-05-12,21:17:43,Carlos Gómez,Luis Rodríguez,Completado,Verificado
+MOV-00223,Transferencia,Merma,SKU-0053,74,ALM-10,ALM-03,A-20,B-14,,239.91,33665.07,2024-04-27,13:39:24,Laura Torres,Luis Rodríguez,Completado,
+MOV-00224,Salida,Devolución cliente,SKU-0001,33,ALM-05,,B-01,,TR-014,168.76,8544.97,2025-01-17,00:43:34,Luis Rodríguez,Luis Rodríguez,Completado,Revisar
+MOV-00225,Entrada,Venta,SKU-0026,43,ALM-08,,G-10,,COMP-0074,282.08,13495.84,2026-01-16,09:06:07,Sofía Hernández,Juan Pérez,Completado,
+MOV-00226,Merma,Merma,SKU-0157,53,ALM-02,,D-04,,VENT-0167,217.62,19300.42,2025-09-22,22:10:08,Juan Pérez,Sofía Hernández,Cancelado,Revisar
+MOV-00227,Salida,Devolución cliente,SKU-0117,83,ALM-04,,F-09,,VENT-0059,273.62,19261.51,2025-03-31,10:47:55,Ana Martínez,Sofía Hernández,Completado,
+MOV-00228,Entrada,Transferencia interna,SKU-0030,43,ALM-06,,F-17,,TR-006,250.39,12662.81,2026-03-05,17:11:25,Juan Pérez,Ana Martínez,Completado,Verificado
+MOV-00229,Transferencia,Ajuste de inventario,SKU-0137,76,ALM-01,ALM-05,F-18,A-19,TR-018,80.33,34198.56,2024-01-20,09:52:57,Carlos Gómez,Carlos Gómez,Cancelado,
+MOV-00230,Transferencia,Devolución cliente,SKU-0180,43,ALM-06,ALM-10,C-02,F-12,VENT-0417,250.21,13751.96,2025-12-09,02:06:43,Ana Martínez,Laura Torres,Cancelado,Revisar
+MOV-00231,Salida,Devolución proveedor,SKU-0005,91,ALM-08,,G-05,,,89.49,20481.79,2024-11-08,17:36:57,Sofía Hernández,Laura Torres,Completado,
+MOV-00232,Transferencia,Venta,SKU-0169,22,ALM-04,ALM-04,G-17,G-02,VENT-0527,256.33,7839.51,2024-07-04,02:08:42,Ana Martínez,Juan Pérez,Pendiente,
+MOV-00233,Ajuste,Ajuste de inventario,SKU-0028,95,ALM-10,,H-19,,,335.03,44465.62,2024-04-29,22:25:59,Juan Pérez,Ana Martínez,Completado,Revisar
+MOV-00234,Merma,Daño,SKU-0125,96,ALM-06,,C-17,,TR-021,280.64,9332.26,2025-07-07,08:49:15,Laura Torres,Pedro Sánchez,Completado,
+MOV-00235,Merma,Compra,SKU-0146,2,ALM-08,,D-16,,VENT-0292,401.83,381.37,2025-10-22,21:57:41,Luis Rodríguez,Luis Rodríguez,Completado,
+MOV-00236,Reubicación,Transferencia interna,SKU-0012,58,ALM-07,ALM-03,G-11,E-08,VENT-0788,497.08,5748.17,2025-02-16,12:01:59,Luis Rodríguez,Ana Martínez,Completado,Revisar
+MOV-00237,Merma,Daño,SKU-0132,27,ALM-06,,A-15,,TR-019,213.74,11739.13,2025-09-17,14:32:48,Ana Martínez,Laura Torres,Completado,Verificado
+MOV-00238,Merma,Reclasificación,SKU-0142,10,ALM-09,,E-07,,TR-002,428.45,3620.41,2025-01-22,01:28:41,María López,Laura Torres,Pendiente,Verificado
+MOV-00239,Entrada,Devolución proveedor,SKU-0176,82,ALM-01,,A-16,,TR-007,312.74,9583.79,2024-07-16,06:45:45,Sofía Hernández,Luis Rodríguez,Completado,
+MOV-00240,Salida,Devolución proveedor,SKU-0105,75,ALM-03,,F-02,,,394.24,36217.68,2025-08-24,21:51:25,Sofía Hernández,Ana Martínez,Completado,Verificado
+MOV-00241,Salida,Devolución proveedor,SKU-0081,89,ALM-02,,E-20,,,134.77,43241.59,2025-11-18,07:17:30,Laura Torres,María López,Completado,Verificado
+MOV-00242,Reubicación,Ajuste de inventario,SKU-0157,43,ALM-06,ALM-06,F-12,H-02,TR-002,101.1,7016.07,2024-02-04,06:26:19,Luis Rodríguez,Sofía Hernández,Cancelado,
+MOV-00243,Reubicación,Transferencia interna,SKU-0121,51,ALM-02,ALM-09,D-20,B-05,,429.23,10007.09,2024-04-23,14:47:25,María López,Carlos Gómez,Completado,
+MOV-00244,Devolución,Compra,SKU-0167,31,ALM-06,,G-10,,VENT-0430,161.75,1610.97,2025-11-02,08:23:23,Sofía Hernández,Sofía Hernández,Cancelado,
+MOV-00245,Entrada,Devolución proveedor,SKU-0033,53,ALM-07,,A-16,,VENT-0499,465.32,7810.84,2024-08-05,20:08:31,Pedro Sánchez,Ana Martínez,Cancelado,Urgente
+MOV-00246,Devolución,Merma,SKU-0016,34,ALM-01,,A-17,,COMP-0092,230.14,7468.55,2025-11-25,21:52:53,Carlos Gómez,Pedro Sánchez,Cancelado,
+MOV-00247,Salida,Compra,SKU-0176,24,ALM-10,,H-12,,TR-001,96.88,9551.2,2024-06-02,01:27:41,Laura Torres,Juan Pérez,Completado,
+MOV-00248,Merma,Compra,SKU-0028,23,ALM-04,,D-09,,TR-002,246.39,6072.7,2024-02-09,05:58:07,Pedro Sánchez,Carlos Gómez,Completado,Revisar
+MOV-00249,Merma,Ajuste de inventario,SKU-0050,88,ALM-10,,B-20,,COMP-0081,100.61,38063.99,2024-08-31,07:01:30,María López,Carlos Gómez,Completado,Verificado
+MOV-00250,Entrada,Transferencia interna,SKU-0015,72,ALM-09,,D-15,,COMP-0228,254.31,5354.17,2024-05-08,09:39:35,Sofía Hernández,Laura Torres,Cancelado,Revisar
+MOV-00251,Ajuste,Compra,SKU-0043,71,ALM-07,,D-05,,,481.99,34888.18,2024-05-28,05:26:36,Juan Pérez,Luis Rodríguez,Completado,Verificado
+MOV-00252,Merma,Devolución proveedor,SKU-0108,47,ALM-03,,E-16,,TR-019,418.31,19733.51,2025-05-30,20:27:56,Luis Rodríguez,Laura Torres,Completado,Urgente
+MOV-00253,Merma,Devolución proveedor,SKU-0066,44,ALM-08,,D-15,,VENT-0477,261.17,13039.61,2024-06-30,17:16:00,Laura Torres,Juan Pérez,Cancelado,
+MOV-00254,Ajuste,Reclasificación,SKU-0082,62,ALM-01,,G-03,,TR-017,479.07,7372.97,2025-04-24,09:09:25,Juan Pérez,Carlos Gómez,Cancelado,
+MOV-00255,Ajuste,Merma,SKU-0176,93,ALM-05,,B-15,,COMP-0014,439.56,7769.16,2024-03-13,16:27:02,Sofía Hernández,Pedro Sánchez,Pendiente,Revisar
+MOV-00256,Devolución,Merma,SKU-0003,26,ALM-07,,E-16,,,114.96,8116.81,2024-03-17,06:57:07,Carlos Gómez,Luis Rodríguez,Completado,Revisar
+MOV-00257,Merma,Devolución cliente,SKU-0093,31,ALM-02,,G-01,,,489.7,9311.32,2025-01-17,08:35:01,Laura Torres,Juan Pérez,Completado,Verificado
+MOV-00258,Entrada,Merma,SKU-0178,66,ALM-08,,B-12,,TR-016,341.99,24818.57,2026-03-09,01:30:52,Luis Rodríguez,Juan Pérez,Completado,
+MOV-00259,Salida,Devolución proveedor,SKU-0109,71,ALM-08,,G-15,,VENT-0156,235.53,24946.62,2025-08-15,10:04:05,Juan Pérez,Juan Pérez,Completado,Urgente
+MOV-00260,Ajuste,Daño,SKU-0014,14,ALM-06,,A-06,,COMP-0007,206.61,2521.08,2025-05-23,15:10:43,Ana Martínez,Carlos Gómez,Completado,
+MOV-00261,Entrada,Reclasificación,SKU-0173,23,ALM-06,,H-09,,VENT-0472,338.0,10135.42,2025-09-26,13:20:38,Laura Torres,Luis Rodríguez,Completado,
+MOV-00262,Transferencia,Devolución cliente,SKU-0039,50,ALM-03,ALM-01,E-03,G-10,COMP-0058,248.36,3385.36,2025-11-10,21:54:23,María López,Ana Martínez,Completado,Verificado
+MOV-00263,Reubicación,Reclasificación,SKU-0157,99,ALM-07,ALM-07,H-13,B-13,VENT-0005,204.58,39111.91,2024-08-23,14:19:38,Juan Pérez,Sofía Hernández,Cancelado,
+MOV-00264,Devolución,Daño,SKU-0186,51,ALM-02,,E-09,,,145.15,21357.23,2025-06-12,10:32:25,Carlos Gómez,Luis Rodríguez,Completado,Urgente
+MOV-00265,Transferencia,Devolución proveedor,SKU-0114,33,ALM-01,ALM-10,G-07,C-09,VENT-0784,115.41,8204.37,2024-09-28,18:06:06,María López,María López,Completado,Urgente
+MOV-00266,Devolución,Daño,SKU-0096,89,ALM-05,,G-14,,VENT-0625,318.4,37231.18,2024-03-13,02:15:22,Pedro Sánchez,María López,Cancelado,Urgente
+MOV-00267,Salida,Ajuste de inventario,SKU-0014,85,ALM-05,,A-02,,TR-022,169.11,17490.83,2025-04-09,15:42:59,Carlos Gómez,Juan Pérez,Completado,
+MOV-00268,Transferencia,Daño,SKU-0140,21,ALM-08,ALM-09,B-20,C-03,VENT-0289,323.98,6151.42,2025-08-11,14:19:24,Juan Pérez,Luis Rodríguez,Completado,Revisar
+MOV-00269,Salida,Daño,SKU-0117,14,ALM-05,,H-06,,,256.11,3843.93,2025-05-08,17:03:51,Luis Rodríguez,Sofía Hernández,Completado,Revisar
+MOV-00270,Reubicación,Merma,SKU-0047,55,ALM-10,ALM-09,H-19,H-16,VENT-0301,280.72,24616.07,2025-04-01,09:04:15,Luis Rodríguez,Juan Pérez,Completado,Revisar
+MOV-00271,Salida,Ajuste de inventario,SKU-0185,75,ALM-07,,A-11,,TR-006,199.79,37197.81,2025-12-09,22:37:13,Luis Rodríguez,Pedro Sánchez,Completado,Revisar
+MOV-00272,Devolución,Devolución cliente,SKU-0007,15,ALM-09,,E-10,,TR-008,373.45,5266.29,2024-06-05,13:07:58,María López,Sofía Hernández,Pendiente,Revisar
+MOV-00273,Reubicación,Transferencia interna,SKU-0103,18,ALM-04,ALM-01,H-01,G-11,,439.88,8739.18,2025-12-23,03:24:02,Carlos Gómez,Carlos Gómez,Pendiente,Urgente
+MOV-00274,Transferencia,Ajuste de inventario,SKU-0062,32,ALM-08,ALM-03,H-03,G-06,VENT-0306,238.27,14006.71,2024-02-24,03:08:40,María López,Ana Martínez,Cancelado,Urgente
+MOV-00275,Entrada,Daño,SKU-0126,70,ALM-08,,A-13,,VENT-0080,206.02,30645.63,2024-07-09,10:32:25,Pedro Sánchez,Ana Martínez,Completado,Verificado
+MOV-00276,Transferencia,Daño,SKU-0182,38,ALM-01,ALM-03,C-11,C-03,TR-017,244.76,2609.71,2024-03-22,10:53:39,Luis Rodríguez,Pedro Sánchez,Cancelado,Urgente
+MOV-00277,Devolución,Transferencia interna,SKU-0135,98,ALM-09,,C-18,,VENT-0460,119.35,15595.97,2024-11-13,21:14:53,Carlos Gómez,Laura Torres,Completado,Urgente
+MOV-00278,Reubicación,Transferencia interna,SKU-0043,27,ALM-01,ALM-04,G-13,G-10,TR-024,295.31,3004.64,2026-02-02,17:44:42,Sofía Hernández,Carlos Gómez,Pendiente,
+MOV-00279,Devolución,Compra,SKU-0119,95,ALM-04,,C-01,,COMP-0259,424.02,23458.75,2025-01-22,02:47:00,Pedro Sánchez,Carlos Gómez,Cancelado,
+MOV-00280,Reubicación,Devolución proveedor,SKU-0057,35,ALM-06,ALM-08,D-11,G-06,TR-005,274.87,12992.93,2025-10-15,01:03:16,Sofía Hernández,Ana Martínez,Completado,Revisar
+MOV-00281,Transferencia,Ajuste de inventario,SKU-0181,75,ALM-01,ALM-03,H-08,C-06,,190.48,9258.57,2025-04-26,08:02:48,Carlos Gómez,Sofía Hernández,Completado,
+MOV-00282,Transferencia,Ajuste de inventario,SKU-0106,67,ALM-10,ALM-08,H-02,E-04,,211.86,20951.01,2025-09-10,20:50:55,Luis Rodríguez,Pedro Sánchez,Pendiente,
+MOV-00283,Devolución,Compra,SKU-0101,44,ALM-05,,E-17,,TR-024,274.76,6719.63,2025-01-24,05:45:11,María López,Carlos Gómez,Completado,Revisar
+MOV-00284,Devolución,Reclasificación,SKU-0085,46,ALM-08,,A-01,,COMP-0338,354.83,7718.65,2025-07-01,10:37:53,Luis Rodríguez,Carlos Gómez,Pendiente,
+MOV-00285,Entrada,Daño,SKU-0125,53,ALM-10,,F-07,,,151.43,25431.88,2024-01-25,18:32:01,María López,Ana Martínez,Cancelado,Verificado
+MOV-00286,Entrada,Daño,SKU-0195,49,ALM-04,,D-12,,,194.21,22021.92,2024-05-27,02:02:34,Juan Pérez,María López,Completado,
+MOV-00287,Salida,Devolución proveedor,SKU-0118,36,ALM-07,,H-01,,TR-021,270.95,10086.2,2024-07-21,14:04:20,Pedro Sánchez,Sofía Hernández,Cancelado,Verificado
+MOV-00288,Merma,Devolución cliente,SKU-0159,48,ALM-06,,H-11,,VENT-0352,489.32,2949.03,2025-04-18,10:20:57,Ana Martínez,Pedro Sánchez,Completado,Revisar
+MOV-00289,Merma,Venta,SKU-0162,11,ALM-05,,F-10,,VENT-0573,473.93,3963.91,2025-03-29,04:47:54,Sofía Hernández,Carlos Gómez,Completado,Verificado
+MOV-00290,Merma,Daño,SKU-0199,68,ALM-03,,B-13,,,324.62,25118.83,2025-10-22,02:19:53,Sofía Hernández,Laura Torres,Completado,Urgente
+MOV-00291,Transferencia,Ajuste de inventario,SKU-0082,20,ALM-01,ALM-03,H-13,E-15,COMP-0104,185.08,1510.15,2024-03-02,23:23:43,Ana Martínez,Carlos Gómez,Completado,
+MOV-00292,Merma,Transferencia interna,SKU-0073,37,ALM-10,,D-14,,,309.14,3352.73,2024-01-10,22:05:52,Juan Pérez,Sofía Hernández,Completado,
+MOV-00293,Ajuste,Compra,SKU-0147,41,ALM-01,,E-16,,COMP-0312,410.21,14142.27,2025-08-19,04:20:19,Pedro Sánchez,Juan Pérez,Completado,Revisar
+MOV-00294,Devolución,Devolución cliente,SKU-0023,15,ALM-04,,E-17,,,140.96,4805.58,2024-07-27,21:39:27,Carlos Gómez,Laura Torres,Pendiente,Revisar
+MOV-00295,Ajuste,Ajuste de inventario,SKU-0023,24,ALM-05,,C-04,,,397.97,7887.85,2025-05-20,22:45:13,María López,Ana Martínez,Completado,
+MOV-00296,Transferencia,Compra,SKU-0152,40,ALM-03,ALM-10,A-18,B-19,VENT-0694,414.31,4840.1,2025-07-27,03:52:36,María López,Juan Pérez,Cancelado,
+MOV-00297,Entrada,Devolución proveedor,SKU-0172,28,ALM-07,,D-04,,TR-008,446.45,9288.04,2024-07-15,15:03:19,María López,Laura Torres,Completado,
+MOV-00298,Reubicación,Daño,SKU-0168,28,ALM-10,ALM-02,B-17,H-10,,157.63,3994.9,2025-12-08,05:01:48,Ana Martínez,Luis Rodríguez,Completado,Revisar
+MOV-00299,Transferencia,Venta,SKU-0111,4,ALM-05,ALM-09,H-13,F-02,VENT-0508,388.01,476.29,2025-05-19,22:55:41,Laura Torres,Carlos Gómez,Completado,
+MOV-00300,Reubicación,Ajuste de inventario,SKU-0097,97,ALM-02,ALM-07,A-07,H-17,,191.96,43646.68,2026-02-03,14:54:01,Ana Martínez,Pedro Sánchez,Completado,
+MOV-00301,Ajuste,Compra,SKU-0103,60,ALM-06,,E-13,,COMP-0306,437.58,6696.97,2024-01-24,07:13:44,Laura Torres,Juan Pérez,Completado,Verificado
+MOV-00302,Entrada,Daño,SKU-0191,88,ALM-01,,A-19,,,301.74,12236.87,2024-11-21,05:13:19,Ana Martínez,Juan Pérez,Pendiente,
+MOV-00303,Devolución,Devolución cliente,SKU-0200,63,ALM-09,,D-20,,TR-008,200.77,23908.11,2024-10-27,18:31:11,Carlos Gómez,Sofía Hernández,Cancelado,Urgente
+MOV-00304,Salida,Devolución proveedor,SKU-0176,48,ALM-05,,F-11,,,452.37,23024.01,2025-07-17,00:13:58,Luis Rodríguez,Carlos Gómez,Completado,Verificado
+MOV-00305,Ajuste,Daño,SKU-0139,72,ALM-08,,D-13,,COMP-0289,478.78,20833.21,2024-07-30,01:16:44,Ana Martínez,Pedro Sánchez,Completado,Verificado
+MOV-00306,Transferencia,Merma,SKU-0133,40,ALM-05,ALM-09,G-16,E-04,,108.62,9205.85,2025-02-27,03:29:21,Sofía Hernández,Carlos Gómez,Cancelado,Verificado
+MOV-00307,Ajuste,Devolución cliente,SKU-0103,5,ALM-06,,E-01,,VENT-0106,163.88,428.81,2024-05-04,14:11:34,María López,Luis Rodríguez,Completado,Urgente
+MOV-00308,Ajuste,Daño,SKU-0018,10,ALM-07,,B-04,,COMP-0158,444.85,842.58,2025-02-28,16:38:10,Pedro Sánchez,Juan Pérez,Completado,
+MOV-00309,Transferencia,Merma,SKU-0182,81,ALM-06,ALM-05,C-13,D-13,COMP-0260,274.92,7312.45,2024-10-03,08:51:01,Ana Martínez,Luis Rodríguez,Completado,Urgente
+MOV-00310,Merma,Devolución proveedor,SKU-0081,36,ALM-07,,G-01,,,91.72,17275.55,2024-12-12,20:08:09,Laura Torres,Carlos Gómez,Completado,Revisar
+MOV-00311,Ajuste,Transferencia interna,SKU-0151,61,ALM-02,,H-07,,VENT-0544,346.15,27062.0,2024-09-30,18:20:53,Laura Torres,Juan Pérez,Cancelado,
+MOV-00312,Transferencia,Venta,SKU-0008,100,ALM-07,ALM-06,A-18,B-03,VENT-0422,435.26,38912.76,2026-01-03,00:15:17,Luis Rodríguez,Luis Rodríguez,Completado,Urgente
+MOV-00313,Ajuste,Merma,SKU-0119,5,ALM-03,,H-19,,VENT-0730,444.32,529.26,2024-01-16,05:38:22,Luis Rodríguez,Luis Rodríguez,Cancelado,Urgente
+MOV-00314,Ajuste,Devolución cliente,SKU-0110,74,ALM-03,,B-16,,TR-012,108.69,15115.07,2024-12-03,16:00:00,María López,Pedro Sánchez,Completado,Urgente
+MOV-00315,Ajuste,Reclasificación,SKU-0053,35,ALM-10,,E-11,,VENT-0189,353.37,14603.81,2024-11-09,22:13:35,Ana Martínez,Carlos Gómez,Pendiente,
+MOV-00316,Merma,Venta,SKU-0132,78,ALM-01,,A-03,,,106.45,28894.81,2025-05-13,09:40:41,Sofía Hernández,Laura Torres,Pendiente,
+MOV-00317,Merma,Devolución cliente,SKU-0190,31,ALM-10,,E-18,,VENT-0093,128.18,11393.31,2024-02-11,20:54:56,Ana Martínez,Sofía Hernández,Completado,
+MOV-00318,Reubicación,Ajuste de inventario,SKU-0139,26,ALM-08,ALM-03,H-12,G-16,COMP-0294,71.73,2920.7,2025-10-17,10:24:17,Laura Torres,Laura Torres,Completado,
+MOV-00319,Transferencia,Venta,SKU-0133,72,ALM-09,ALM-08,A-17,E-03,,102.2,17095.31,2024-05-13,02:19:59,Pedro Sánchez,Luis Rodríguez,Completado,Verificado
+MOV-00320,Merma,Daño,SKU-0167,11,ALM-04,,A-19,,COMP-0235,379.15,2044.77,2024-04-15,15:13:46,Sofía Hernández,Carlos Gómez,Completado,Verificado
+MOV-00321,Merma,Daño,SKU-0172,62,ALM-08,,H-01,,,334.64,12603.77,2024-10-26,05:21:59,María López,Carlos Gómez,Completado,Urgente
+MOV-00322,Merma,Daño,SKU-0198,72,ALM-03,,C-13,,,326.53,25173.35,2024-02-01,13:46:01,Carlos Gómez,Pedro Sánchez,Completado,Urgente
+MOV-00323,Reubicación,Devolución proveedor,SKU-0053,71,ALM-08,ALM-02,G-10,G-17,,423.1,9585.74,2024-08-08,23:30:00,Juan Pérez,Laura Torres,Completado,
+MOV-00324,Ajuste,Daño,SKU-0134,100,ALM-09,,G-14,,COMP-0385,66.46,41024.68,2024-03-03,22:02:36,Ana Martínez,Luis Rodríguez,Cancelado,
+MOV-00325,Devolución,Merma,SKU-0040,87,ALM-08,,E-18,,COMP-0226,327.06,17959.06,2025-12-12,15:51:18,Luis Rodríguez,Sofía Hernández,Pendiente,
+MOV-00326,Ajuste,Merma,SKU-0035,55,ALM-06,,E-03,,COMP-0396,275.97,13807.03,2025-04-27,18:17:31,Laura Torres,Sofía Hernández,Completado,
+MOV-00327,Salida,Transferencia interna,SKU-0079,43,ALM-03,,A-06,,COMP-0224,76.26,4568.89,2026-02-22,23:24:42,Luis Rodríguez,Sofía Hernández,Completado,
+MOV-00328,Ajuste,Compra,SKU-0058,31,ALM-08,,E-02,,VENT-0391,88.94,8733.42,2024-01-11,04:41:09,Luis Rodríguez,Laura Torres,Pendiente,Urgente
+MOV-00329,Ajuste,Devolución proveedor,SKU-0095,16,ALM-09,,D-16,,,77.83,6549.58,2024-05-08,06:25:46,Pedro Sánchez,Ana Martínez,Completado,
+MOV-00330,Ajuste,Devolución cliente,SKU-0112,30,ALM-03,,C-18,,COMP-0182,398.0,11905.5,2024-08-10,07:29:08,Ana Martínez,Laura Torres,Completado,
+MOV-00331,Transferencia,Venta,SKU-0193,75,ALM-01,ALM-04,D-16,A-01,VENT-0710,114.16,10757.05,2024-07-31,01:13:47,Laura Torres,Juan Pérez,Completado,
+MOV-00332,Salida,Venta,SKU-0060,98,ALM-09,,D-18,,,107.55,33374.03,2024-07-20,17:40:59,Juan Pérez,Luis Rodríguez,Pendiente,
+MOV-00333,Ajuste,Devolución proveedor,SKU-0026,76,ALM-02,,H-14,,,452.14,26117.15,2025-06-20,12:18:23,Sofía Hernández,Luis Rodríguez,Completado,Urgente
+MOV-00334,Reubicación,Devolución proveedor,SKU-0177,19,ALM-08,ALM-09,D-15,C-14,COMP-0149,370.98,6329.99,2024-04-08,14:12:41,Pedro Sánchez,Sofía Hernández,Cancelado,
+MOV-00335,Transferencia,Daño,SKU-0186,17,ALM-04,ALM-10,A-08,H-20,COMP-0311,354.97,1464.32,2025-06-22,11:01:15,Carlos Gómez,María López,Cancelado,Revisar
+MOV-00336,Transferencia,Merma,SKU-0194,75,ALM-06,ALM-06,B-01,C-11,TR-014,444.63,28604.89,2025-11-21,16:25:40,Juan Pérez,Pedro Sánchez,Pendiente,
+MOV-00337,Transferencia,Venta,SKU-0127,54,ALM-05,ALM-10,G-08,C-18,,450.76,2723.56,2025-04-27,16:21:11,Luis Rodríguez,Carlos Gómez,Pendiente,Verificado
+MOV-00338,Salida,Devolución proveedor,SKU-0040,14,ALM-10,,G-08,,COMP-0347,307.74,6910.46,2024-11-29,07:38:38,Luis Rodríguez,Sofía Hernández,Cancelado,
+MOV-00339,Entrada,Devolución proveedor,SKU-0052,72,ALM-06,,E-14,,VENT-0446,139.27,18825.74,2025-07-30,16:31:13,Juan Pérez,Juan Pérez,Completado,Urgente
+MOV-00340,Reubicación,Transferencia interna,SKU-0024,3,ALM-08,ALM-04,G-13,D-06,TR-013,142.2,1101.04,2025-11-09,05:10:46,Ana Martínez,Luis Rodríguez,Cancelado,Verificado
+MOV-00341,Transferencia,Venta,SKU-0145,28,ALM-07,ALM-07,A-04,B-02,TR-010,228.35,13624.35,2025-09-04,00:47:28,Ana Martínez,Carlos Gómez,Pendiente,
+MOV-00342,Transferencia,Daño,SKU-0194,58,ALM-10,ALM-04,H-17,F-20,,267.95,14142.46,2026-03-03,01:50:52,Juan Pérez,Ana Martínez,Pendiente,
+MOV-00343,Ajuste,Devolución proveedor,SKU-0075,99,ALM-09,,B-01,,TR-025,416.57,36837.66,2025-12-25,13:27:36,Luis Rodríguez,Luis Rodríguez,Pendiente,
+MOV-00344,Merma,Daño,SKU-0060,70,ALM-01,,F-05,,VENT-0587,225.05,14360.27,2025-03-27,02:35:12,Laura Torres,Luis Rodríguez,Pendiente,Verificado
+MOV-00345,Entrada,Daño,SKU-0152,68,ALM-09,,D-15,,VENT-0252,69.53,28473.98,2026-02-10,16:20:39,Ana Martínez,Juan Pérez,Pendiente,
+MOV-00346,Merma,Ajuste de inventario,SKU-0083,8,ALM-01,,G-09,,COMP-0202,169.35,1200.25,2024-06-02,07:22:16,Pedro Sánchez,Sofía Hernández,Completado,
+MOV-00347,Salida,Merma,SKU-0027,88,ALM-01,,D-17,,,144.31,38764.14,2024-12-30,13:39:18,Pedro Sánchez,Pedro Sánchez,Completado,
+MOV-00348,Devolución,Merma,SKU-0016,28,ALM-05,,H-09,,,345.68,12504.89,2025-05-03,13:05:11,Carlos Gómez,María López,Completado,
+MOV-00349,Reubicación,Merma,SKU-0061,94,ALM-06,ALM-06,G-17,B-19,VENT-0046,105.18,26743.96,2025-08-11,07:13:13,Sofía Hernández,Carlos Gómez,Cancelado,Verificado
+MOV-00350,Merma,Compra,SKU-0184,85,ALM-02,,D-17,,,394.89,5241.14,2025-02-14,18:21:50,Laura Torres,Ana Martínez,Cancelado,
+MOV-00351,Entrada,Devolución cliente,SKU-0008,9,ALM-06,,H-04,,,223.15,4153.04,2024-07-07,02:38:18,María López,Ana Martínez,Pendiente,Urgente
+MOV-00352,Reubicación,Devolución proveedor,SKU-0186,48,ALM-06,ALM-02,B-19,D-19,,275.75,19570.99,2024-02-07,15:04:30,Juan Pérez,Juan Pérez,Completado,Revisar
+MOV-00353,Salida,Transferencia interna,SKU-0153,27,ALM-09,,F-01,,TR-004,87.68,13048.49,2025-12-25,07:13:52,Carlos Gómez,María López,Completado,
+MOV-00354,Devolución,Compra,SKU-0091,21,ALM-10,,E-02,,TR-007,442.75,1740.24,2024-05-18,15:31:23,Sofía Hernández,Pedro Sánchez,Completado,Urgente
+MOV-00355,Ajuste,Merma,SKU-0066,70,ALM-07,,B-03,,COMP-0354,374.37,23964.5,2024-01-08,01:24:37,Sofía Hernández,María López,Pendiente,
+MOV-00356,Ajuste,Venta,SKU-0173,12,ALM-02,,G-02,,,454.65,4203.02,2024-06-21,04:55:42,Ana Martínez,Ana Martínez,Completado,
+MOV-00357,Salida,Daño,SKU-0084,46,ALM-08,,C-02,,,405.82,19191.08,2025-08-20,10:38:27,María López,Juan Pérez,Cancelado,Urgente
+MOV-00358,Ajuste,Merma,SKU-0163,14,ALM-09,,A-10,,COMP-0184,90.07,1588.19,2025-08-07,01:53:13,Pedro Sánchez,Juan Pérez,Cancelado,
+MOV-00359,Ajuste,Daño,SKU-0071,100,ALM-01,,E-09,,,361.31,27480.34,2024-04-15,03:16:02,Ana Martínez,Luis Rodríguez,Pendiente,Revisar
+MOV-00360,Transferencia,Devolución proveedor,SKU-0068,36,ALM-01,ALM-07,A-19,F-17,TR-005,168.02,8253.67,2025-08-02,19:35:14,Sofía Hernández,Juan Pérez,Pendiente,
+MOV-00361,Salida,Devolución cliente,SKU-0156,36,ALM-03,,A-10,,TR-015,458.47,4702.09,2024-03-21,06:43:48,Luis Rodríguez,Laura Torres,Pendiente,Verificado
+MOV-00362,Devolución,Ajuste de inventario,SKU-0022,77,ALM-01,,B-13,,TR-005,105.56,38126.77,2024-12-19,21:45:24,Sofía Hernández,Juan Pérez,Completado,Urgente
+MOV-00363,Ajuste,Merma,SKU-0034,78,ALM-02,,B-13,,TR-025,245.92,30856.58,2025-04-01,09:38:33,Carlos Gómez,Luis Rodríguez,Pendiente,Revisar
+MOV-00364,Devolución,Reclasificación,SKU-0162,87,ALM-01,,B-13,,TR-006,385.71,36512.51,2025-02-26,09:02:10,María López,Sofía Hernández,Pendiente,
+MOV-00365,Salida,Devolución proveedor,SKU-0023,92,ALM-03,,E-06,,VENT-0349,422.51,20757.52,2024-05-31,01:00:33,Sofía Hernández,Luis Rodríguez,Cancelado,Verificado
+MOV-00366,Entrada,Devolución proveedor,SKU-0116,24,ALM-01,,F-05,,COMP-0005,198.71,9489.45,2024-04-20,06:46:07,Luis Rodríguez,Sofía Hernández,Pendiente,
+MOV-00367,Transferencia,Devolución cliente,SKU-0157,80,ALM-03,ALM-04,C-05,B-01,VENT-0088,462.39,36007.81,2024-08-23,07:46:06,Luis Rodríguez,María López,Completado,
+MOV-00368,Reubicación,Ajuste de inventario,SKU-0138,63,ALM-05,ALM-04,H-16,C-10,,467.59,15257.83,2025-06-08,16:09:14,María López,Ana Martínez,Pendiente,Revisar
+MOV-00369,Devolución,Venta,SKU-0175,96,ALM-09,,B-01,,TR-019,117.77,18223.63,2025-06-13,13:22:29,Pedro Sánchez,Ana Martínez,Completado,
+MOV-00370,Devolución,Devolución proveedor,SKU-0122,58,ALM-03,,G-07,,COMP-0393,137.94,22662.8,2024-10-16,15:52:40,Carlos Gómez,Sofía Hernández,Completado,
+MOV-00371,Merma,Devolución proveedor,SKU-0048,17,ALM-04,,F-04,,COMP-0035,299.09,3383.06,2025-10-16,07:16:21,Sofía Hernández,Ana Martínez,Cancelado,Urgente
+MOV-00372,Devolución,Transferencia interna,SKU-0048,66,ALM-01,,E-15,,TR-014,461.79,24345.16,2025-04-28,17:08:34,Laura Torres,Luis Rodríguez,Completado,Urgente
+MOV-00373,Merma,Transferencia interna,SKU-0129,58,ALM-01,,H-11,,COMP-0107,372.55,13079.68,2024-03-21,11:38:12,María López,Sofía Hernández,Completado,Verificado
+MOV-00374,Salida,Compra,SKU-0025,85,ALM-08,,E-03,,,336.01,8908.13,2025-11-01,12:05:17,Luis Rodríguez,Sofía Hernández,Completado,Revisar
+MOV-00375,Reubicación,Devolución proveedor,SKU-0153,49,ALM-08,ALM-05,E-07,D-03,,414.85,17521.73,2024-11-09,11:14:14,Ana Martínez,Luis Rodríguez,Cancelado,Verificado
+MOV-00376,Salida,Reclasificación,SKU-0160,56,ALM-01,,B-01,,COMP-0385,406.32,10424.12,2025-09-22,09:19:38,Laura Torres,Sofía Hernández,Cancelado,Urgente
+MOV-00377,Transferencia,Venta,SKU-0142,92,ALM-09,ALM-09,B-16,G-02,VENT-0134,307.71,10952.68,2025-02-27,19:16:13,Laura Torres,Pedro Sánchez,Completado,Revisar
+MOV-00378,Salida,Compra,SKU-0126,37,ALM-04,,D-04,,COMP-0083,441.92,7202.86,2025-08-20,17:02:59,Laura Torres,Juan Pérez,Completado,Verificado
+MOV-00379,Salida,Daño,SKU-0176,16,ALM-04,,G-18,,TR-015,375.38,4373.86,2024-11-15,00:29:01,Ana Martínez,Pedro Sánchez,Pendiente,Verificado
+MOV-00380,Reubicación,Compra,SKU-0196,46,ALM-01,ALM-08,G-05,C-18,COMP-0080,104.42,19460.17,2025-02-15,06:54:54,Pedro Sánchez,Carlos Gómez,Pendiente,Revisar
+MOV-00381,Reubicación,Transferencia interna,SKU-0067,98,ALM-07,ALM-05,D-20,D-07,VENT-0307,339.73,48925.03,2025-03-26,13:36:10,Juan Pérez,Pedro Sánchez,Pendiente,Urgente
+MOV-00382,Ajuste,Devolución proveedor,SKU-0009,35,ALM-04,,B-06,,VENT-0259,142.51,7105.81,2025-07-10,23:17:37,María López,María López,Cancelado,Urgente
+MOV-00383,Transferencia,Transferencia interna,SKU-0111,45,ALM-05,ALM-03,B-01,G-08,,263.23,16577.29,2024-04-10,09:35:45,Ana Martínez,Pedro Sánchez,Completado,Urgente
+MOV-00384,Devolución,Merma,SKU-0025,11,ALM-06,,F-12,,VENT-0566,307.72,1827.14,2025-12-06,02:39:15,Laura Torres,Ana Martínez,Completado,
+MOV-00385,Reubicación,Merma,SKU-0105,25,ALM-06,ALM-10,H-06,H-13,TR-017,264.31,5368.71,2025-12-06,06:23:50,Pedro Sánchez,María López,Completado,
+MOV-00386,Entrada,Venta,SKU-0125,33,ALM-10,,F-08,,VENT-0569,130.62,13331.35,2025-09-01,04:12:12,Juan Pérez,Laura Torres,Pendiente,
+MOV-00387,Transferencia,Venta,SKU-0008,5,ALM-02,ALM-04,B-11,E-17,COMP-0001,387.22,1178.57,2024-04-06,08:31:39,Carlos Gómez,María López,Completado,Revisar
+MOV-00388,Devolución,Daño,SKU-0004,12,ALM-07,,B-13,,,190.34,3995.74,2024-01-03,21:38:36,María López,Sofía Hernández,Pendiente,
+MOV-00389,Devolución,Reclasificación,SKU-0170,4,ALM-10,,G-15,,TR-013,131.68,265.82,2025-01-25,21:25:07,Juan Pérez,Carlos Gómez,Completado,Verificado
+MOV-00390,Salida,Transferencia interna,SKU-0111,40,ALM-01,,F-17,,TR-019,491.41,18124.49,2024-08-17,11:39:30,María López,Sofía Hernández,Completado,Urgente
+MOV-00391,Ajuste,Reclasificación,SKU-0159,26,ALM-08,,A-04,,VENT-0698,355.02,2421.74,2024-06-09,14:43:31,Ana Martínez,Carlos Gómez,Pendiente,
+MOV-00392,Reubicación,Devolución proveedor,SKU-0151,55,ALM-07,ALM-09,G-03,A-17,TR-020,140.21,11332.53,2025-06-04,12:30:55,Luis Rodríguez,Ana Martínez,Completado,Verificado
+MOV-00393,Transferencia,Transferencia interna,SKU-0070,64,ALM-07,ALM-04,C-16,G-16,VENT-0435,317.54,26484.09,2024-02-22,08:47:21,Laura Torres,Pedro Sánchez,Pendiente,Revisar
+MOV-00394,Transferencia,Reclasificación,SKU-0150,82,ALM-02,ALM-06,F-08,E-15,,372.61,8886.24,2024-09-28,00:49:23,Ana Martínez,Laura Torres,Pendiente,
+MOV-00395,Devolución,Devolución cliente,SKU-0166,1,ALM-09,,G-11,,VENT-0658,199.74,62.14,2025-07-26,14:51:52,Sofía Hernández,Luis Rodríguez,Cancelado,
+MOV-00396,Reubicación,Devolución proveedor,SKU-0124,68,ALM-04,ALM-09,D-07,F-13,,161.45,21785.57,2024-01-08,09:47:33,Juan Pérez,Luis Rodríguez,Completado,Verificado
+MOV-00397,Salida,Devolución cliente,SKU-0118,27,ALM-02,,F-01,,COMP-0370,414.86,9934.26,2024-02-26,00:20:06,Juan Pérez,Carlos Gómez,Pendiente,
+MOV-00398,Devolución,Merma,SKU-0059,69,ALM-04,,D-10,,TR-009,169.92,33986.11,2025-04-07,12:55:27,Juan Pérez,Ana Martínez,Completado,
+MOV-00399,Ajuste,Reclasificación,SKU-0051,74,ALM-05,,B-11,,VENT-0151,418.17,6024.87,2025-09-26,02:01:11,Laura Torres,Pedro Sánchez,Completado,Verificado
+MOV-00400,Reubicación,Devolución proveedor,SKU-0137,15,ALM-02,ALM-07,E-17,E-19,TR-019,140.98,2075.11,2025-11-29,07:55:53,Juan Pérez,Pedro Sánchez,Completado,
+MOV-00401,Transferencia,Devolución proveedor,SKU-0056,42,ALM-05,ALM-08,D-11,A-12,COMP-0343,234.45,5610.29,2025-04-02,14:01:46,Pedro Sánchez,Laura Torres,Completado,Verificado
+MOV-00402,Reubicación,Venta,SKU-0121,8,ALM-09,ALM-02,C-20,C-08,COMP-0369,306.49,858.55,2025-05-07,15:29:16,Sofía Hernández,Luis Rodríguez,Completado,Urgente
+MOV-00403,Merma,Merma,SKU-0054,32,ALM-09,,H-01,,,270.18,2552.39,2025-05-25,01:40:51,Pedro Sánchez,Sofía Hernández,Completado,
+MOV-00404,Reubicación,Reclasificación,SKU-0110,35,ALM-01,ALM-08,D-18,E-15,COMP-0272,412.49,5340.97,2024-02-11,16:53:49,Sofía Hernández,Laura Torres,Completado,Verificado
+MOV-00405,Reubicación,Compra,SKU-0085,85,ALM-05,ALM-05,C-16,C-17,COMP-0030,102.96,21527.0,2024-10-18,16:15:50,Pedro Sánchez,Luis Rodríguez,Completado,Urgente
+MOV-00406,Entrada,Daño,SKU-0110,64,ALM-06,,E-09,,VENT-0043,498.43,20123.56,2026-02-01,00:12:11,Juan Pérez,Laura Torres,Completado,Verificado
+MOV-00407,Entrada,Merma,SKU-0183,44,ALM-10,,A-04,,COMP-0381,425.03,15049.68,2024-06-07,04:38:38,Pedro Sánchez,Pedro Sánchez,Completado,
+MOV-00408,Entrada,Devolución proveedor,SKU-0154,22,ALM-07,,F-09,,TR-001,318.76,6972.37,2024-09-08,11:17:51,Juan Pérez,Carlos Gómez,Pendiente,
+MOV-00409,Salida,Devolución proveedor,SKU-0007,16,ALM-04,,B-18,,VENT-0005,107.61,1364.38,2024-05-29,17:08:44,Juan Pérez,Pedro Sánchez,Cancelado,
+MOV-00410,Reubicación,Venta,SKU-0015,39,ALM-01,ALM-10,D-02,F-10,TR-023,147.88,11009.4,2025-06-25,14:48:52,Laura Torres,Laura Torres,Completado,Revisar
+MOV-00411,Reubicación,Devolución cliente,SKU-0135,96,ALM-06,ALM-06,D-17,B-12,TR-006,115.4,34110.82,2024-06-02,16:55:08,Pedro Sánchez,Luis Rodríguez,Completado,Revisar
+MOV-00412,Transferencia,Transferencia interna,SKU-0026,65,ALM-06,ALM-06,H-14,B-11,COMP-0174,74.14,18264.08,2024-12-17,18:27:46,Sofía Hernández,Luis Rodríguez,Completado,Urgente
+MOV-00413,Devolución,Devolución proveedor,SKU-0117,50,ALM-01,,E-17,,,448.15,21519.4,2024-04-15,23:01:32,Carlos Gómez,Luis Rodríguez,Completado,Verificado
+MOV-00414,Merma,Devolución proveedor,SKU-0075,6,ALM-01,,H-14,,VENT-0370,320.6,2459.79,2024-08-31,06:23:55,Sofía Hernández,María López,Completado,Revisar
+MOV-00415,Reubicación,Transferencia interna,SKU-0183,18,ALM-08,ALM-08,F-10,H-15,VENT-0509,217.45,7978.43,2025-11-10,11:18:56,María López,Carlos Gómez,Completado,Revisar
+MOV-00416,Ajuste,Ajuste de inventario,SKU-0038,37,ALM-08,,H-20,,,369.81,16404.86,2026-01-24,11:38:18,Luis Rodríguez,Pedro Sánchez,Pendiente,
+MOV-00417,Merma,Transferencia interna,SKU-0028,56,ALM-04,,F-14,,COMP-0338,198.45,17570.31,2025-03-12,10:57:01,Carlos Gómez,Laura Torres,Pendiente,Verificado
+MOV-00418,Transferencia,Merma,SKU-0160,94,ALM-05,ALM-02,C-05,H-05,VENT-0495,138.8,7354.48,2024-01-22,09:52:23,María López,Ana Martínez,Completado,
+MOV-00419,Ajuste,Devolución proveedor,SKU-0164,7,ALM-05,,F-11,,VENT-0247,210.04,3384.79,2024-02-27,11:59:27,Carlos Gómez,María López,Pendiente,Revisar
+MOV-00420,Merma,Reclasificación,SKU-0055,27,ALM-07,,G-17,,VENT-0574,391.38,5013.49,2025-01-16,23:37:05,Juan Pérez,Pedro Sánchez,Completado,
+MOV-00421,Salida,Devolución proveedor,SKU-0021,61,ALM-06,,H-18,,,331.59,18945.89,2024-03-31,18:14:14,Pedro Sánchez,Pedro Sánchez,Completado,Revisar
+MOV-00422,Merma,Merma,SKU-0063,9,ALM-01,,F-01,,VENT-0035,405.52,2685.07,2025-11-15,19:05:05,María López,Sofía Hernández,Completado,
+MOV-00423,Entrada,Compra,SKU-0042,52,ALM-01,,D-08,,TR-019,159.35,16345.99,2024-10-18,05:58:00,Ana Martínez,Laura Torres,Cancelado,
+MOV-00424,Merma,Ajuste de inventario,SKU-0017,72,ALM-09,,E-10,,TR-004,397.82,17605.77,2025-06-29,07:47:56,Luis Rodríguez,Carlos Gómez,Completado,Revisar
+MOV-00425,Salida,Venta,SKU-0077,66,ALM-03,,E-06,,TR-013,181.45,11559.39,2025-12-17,23:52:26,Luis Rodríguez,Luis Rodríguez,Completado,
+MOV-00426,Ajuste,Transferencia interna,SKU-0166,72,ALM-08,,G-14,,VENT-0453,283.23,25732.42,2024-07-17,17:30:28,Luis Rodríguez,Luis Rodríguez,Cancelado,Revisar
+MOV-00427,Salida,Reclasificación,SKU-0080,50,ALM-02,,E-09,,VENT-0625,162.19,20733.41,2025-06-23,10:51:27,Pedro Sánchez,Luis Rodríguez,Completado,
+MOV-00428,Devolución,Merma,SKU-0072,2,ALM-10,,A-18,,TR-009,225.71,700.9,2024-06-05,16:04:57,María López,Carlos Gómez,Completado,Revisar
+MOV-00429,Reubicación,Transferencia interna,SKU-0038,32,ALM-05,ALM-07,H-05,C-02,COMP-0116,268.69,9635.16,2025-11-11,08:03:24,María López,Ana Martínez,Cancelado,Verificado
+MOV-00430,Ajuste,Devolución proveedor,SKU-0078,91,ALM-08,,D-02,,TR-011,358.92,41952.24,2025-06-17,10:43:49,Laura Torres,Pedro Sánchez,Completado,Verificado
+MOV-00431,Devolución,Compra,SKU-0099,72,ALM-01,,F-11,,TR-005,336.74,19118.87,2025-11-24,13:16:40,Luis Rodríguez,Luis Rodríguez,Completado,Verificado
+MOV-00432,Salida,Devolución proveedor,SKU-0043,60,ALM-07,,B-09,,VENT-0364,409.84,7794.43,2024-02-07,01:18:09,María López,Pedro Sánchez,Pendiente,
+MOV-00433,Ajuste,Transferencia interna,SKU-0184,13,ALM-01,,D-11,,,307.24,3736.94,2025-01-12,21:42:01,Sofía Hernández,Pedro Sánchez,Completado,Urgente
+MOV-00434,Entrada,Daño,SKU-0061,29,ALM-06,,A-18,,COMP-0045,460.6,12320.07,2024-11-20,22:36:32,Laura Torres,Pedro Sánchez,Pendiente,Urgente
+MOV-00435,Salida,Compra,SKU-0048,63,ALM-05,,C-07,,,231.0,29234.63,2025-11-18,23:51:32,María López,Laura Torres,Completado,
+MOV-00436,Transferencia,Venta,SKU-0039,17,ALM-09,ALM-05,F-15,E-19,,200.19,1865.2,2025-09-09,00:45:11,Sofía Hernández,Pedro Sánchez,Completado,
+MOV-00437,Reubicación,Daño,SKU-0075,28,ALM-04,ALM-01,E-01,H-16,VENT-0760,105.58,1905.87,2024-11-20,02:00:38,Carlos Gómez,Carlos Gómez,Completado,Verificado
+MOV-00438,Devolución,Devolución proveedor,SKU-0151,59,ALM-04,,H-04,,COMP-0145,69.68,9476.76,2024-10-21,19:08:28,Luis Rodríguez,Ana Martínez,Completado,
+MOV-00439,Ajuste,Merma,SKU-0109,53,ALM-01,,C-08,,TR-003,485.61,10753.1,2024-12-25,00:26:48,Carlos Gómez,Luis Rodríguez,Pendiente,
+MOV-00440,Transferencia,Reclasificación,SKU-0087,20,ALM-03,ALM-01,D-13,H-02,VENT-0466,100.73,1069.33,2025-03-07,11:57:47,Pedro Sánchez,Laura Torres,Completado,Verificado
+MOV-00441,Devolución,Venta,SKU-0001,41,ALM-02,,C-03,,TR-003,254.14,14746.48,2025-04-18,06:51:11,Ana Martínez,Sofía Hernández,Completado,Revisar
+MOV-00442,Reubicación,Ajuste de inventario,SKU-0059,98,ALM-01,ALM-06,E-17,E-19,TR-003,198.88,40960.55,2025-12-13,14:37:18,Ana Martínez,Carlos Gómez,Completado,Urgente
+MOV-00443,Devolución,Devolución cliente,SKU-0059,5,ALM-03,,G-09,,VENT-0768,332.64,1789.24,2024-05-31,23:07:36,Juan Pérez,Carlos Gómez,Completado,
+MOV-00444,Entrada,Devolución proveedor,SKU-0199,84,ALM-05,,A-11,,COMP-0051,135.66,18993.06,2024-03-07,11:46:15,Ana Martínez,Pedro Sánchez,Completado,
+MOV-00445,Entrada,Devolución proveedor,SKU-0081,62,ALM-05,,D-15,,VENT-0055,103.78,24612.82,2025-12-26,08:14:28,Laura Torres,Juan Pérez,Completado,
+MOV-00446,Reubicación,Devolución cliente,SKU-0119,2,ALM-08,ALM-01,B-06,F-20,COMP-0087,438.17,928.38,2026-02-03,20:52:36,Laura Torres,María López,Pendiente,Urgente
+MOV-00447,Reubicación,Daño,SKU-0139,48,ALM-02,ALM-08,G-20,H-12,,272.11,18373.13,2025-01-24,22:49:36,Ana Martínez,Juan Pérez,Completado,
+MOV-00448,Merma,Venta,SKU-0089,93,ALM-07,,D-08,,TR-003,314.99,46291.82,2025-01-06,12:18:41,Laura Torres,Juan Pérez,Cancelado,Revisar
+MOV-00449,Merma,Compra,SKU-0066,93,ALM-07,,F-10,,VENT-0153,306.92,43628.91,2024-11-03,11:29:01,Laura Torres,Pedro Sánchez,Completado,
+MOV-00450,Devolución,Compra,SKU-0067,51,ALM-08,,F-14,,COMP-0076,252.58,15883.19,2024-07-03,05:26:01,Carlos Gómez,Pedro Sánchez,Completado,
+MOV-00451,Devolución,Venta,SKU-0112,66,ALM-01,,D-14,,,315.31,28376.21,2024-01-21,00:52:35,María López,Laura Torres,Completado,
+MOV-00452,Reubicación,Merma,SKU-0051,18,ALM-03,ALM-09,A-12,H-15,,174.89,5668.22,2025-05-26,04:44:24,Carlos Gómez,María López,Completado,Revisar
+MOV-00453,Transferencia,Merma,SKU-0110,83,ALM-05,ALM-07,A-16,H-07,VENT-0326,225.65,33961.16,2025-11-02,21:07:37,Carlos Gómez,Carlos Gómez,Completado,
+MOV-00454,Reubicación,Merma,SKU-0031,27,ALM-04,ALM-10,H-10,C-12,VENT-0050,97.63,7023.75,2025-01-12,08:56:51,Pedro Sánchez,Laura Torres,Completado,
+MOV-00455,Devolución,Venta,SKU-0031,71,ALM-08,,H-09,,TR-010,253.01,11178.32,2024-05-13,19:59:39,Sofía Hernández,Luis Rodríguez,Completado,Revisar
+MOV-00456,Salida,Reclasificación,SKU-0096,50,ALM-02,,C-12,,,325.24,3885.6,2025-09-10,12:57:16,Pedro Sánchez,María López,Completado,Verificado
+MOV-00457,Reubicación,Venta,SKU-0126,15,ALM-10,ALM-07,D-07,F-08,,160.39,4497.01,2025-08-14,17:13:02,Sofía Hernández,Pedro Sánchez,Cancelado,
+MOV-00458,Devolución,Devolución proveedor,SKU-0189,93,ALM-04,,D-11,,COMP-0170,73.97,29685.63,2025-05-03,08:49:35,Laura Torres,Luis Rodríguez,Pendiente,Revisar
+MOV-00459,Entrada,Transferencia interna,SKU-0030,24,ALM-07,,D-10,,TR-004,153.84,11714.39,2025-07-25,04:08:37,Ana Martínez,María López,Pendiente,Urgente
+MOV-00460,Ajuste,Compra,SKU-0131,56,ALM-04,,E-15,,,192.32,27128.99,2024-12-09,22:42:31,Laura Torres,María López,Pendiente,
+MOV-00461,Salida,Devolución cliente,SKU-0019,17,ALM-04,,E-11,,,80.92,3377.75,2025-11-16,11:02:54,Carlos Gómez,Laura Torres,Completado,
+MOV-00462,Devolución,Ajuste de inventario,SKU-0070,66,ALM-07,,F-15,,COMP-0330,446.93,10920.49,2024-02-05,06:36:06,Pedro Sánchez,Pedro Sánchez,Pendiente,
+MOV-00463,Reubicación,Devolución proveedor,SKU-0134,69,ALM-01,ALM-07,E-08,E-09,,57.04,7980.41,2024-11-18,15:49:47,Laura Torres,Luis Rodríguez,Cancelado,
+MOV-00464,Transferencia,Venta,SKU-0072,75,ALM-01,ALM-02,B-17,G-20,COMP-0319,481.72,29489.8,2024-06-02,20:37:15,Sofía Hernández,Laura Torres,Completado,
+MOV-00465,Devolución,Venta,SKU-0079,65,ALM-02,,B-11,,COMP-0367,184.81,14055.87,2025-10-11,01:41:05,Pedro Sánchez,Luis Rodríguez,Completado,Verificado
+MOV-00466,Salida,Devolución cliente,SKU-0078,43,ALM-07,,C-01,,VENT-0127,369.07,17495.45,2024-11-27,19:45:44,Carlos Gómez,Carlos Gómez,Completado,Revisar
+MOV-00467,Transferencia,Reclasificación,SKU-0002,63,ALM-04,ALM-05,D-09,G-13,VENT-0640,262.53,4555.8,2024-03-26,21:03:26,Juan Pérez,Ana Martínez,Cancelado,Revisar
+MOV-00468,Reubicación,Devolución proveedor,SKU-0020,7,ALM-02,ALM-07,D-11,C-03,,383.1,351.43,2025-03-28,05:10:18,María López,Laura Torres,Completado,Verificado
+MOV-00469,Entrada,Devolución proveedor,SKU-0099,66,ALM-07,,E-03,,VENT-0750,104.83,9784.46,2024-02-12,06:27:25,Sofía Hernández,Juan Pérez,Completado,Revisar
+MOV-00470,Transferencia,Merma,SKU-0153,9,ALM-06,ALM-09,B-15,B-12,COMP-0373,304.62,3300.75,2024-12-02,05:47:51,Luis Rodríguez,Carlos Gómez,Completado,
+MOV-00471,Reubicación,Venta,SKU-0150,15,ALM-05,ALM-03,E-17,B-10,,147.38,4214.3,2025-10-20,11:44:45,Pedro Sánchez,Ana Martínez,Cancelado,
+MOV-00472,Transferencia,Transferencia interna,SKU-0044,53,ALM-01,ALM-02,C-01,B-15,,328.68,14720.22,2024-11-25,09:44:19,Pedro Sánchez,Pedro Sánchez,Pendiente,
+MOV-00473,Devolución,Daño,SKU-0077,70,ALM-03,,H-06,,TR-008,255.68,24542.78,2024-03-16,19:06:58,Pedro Sánchez,Luis Rodríguez,Completado,Urgente
+MOV-00474,Merma,Ajuste de inventario,SKU-0148,16,ALM-03,,B-18,,,135.81,4525.15,2024-11-16,04:13:06,Sofía Hernández,Pedro Sánchez,Cancelado,
+MOV-00475,Salida,Devolución cliente,SKU-0075,24,ALM-01,,C-05,,TR-009,128.37,5445.11,2025-07-10,02:40:15,Carlos Gómez,Juan Pérez,Completado,
+MOV-00476,Salida,Ajuste de inventario,SKU-0194,33,ALM-09,,G-15,,TR-016,63.34,13125.46,2024-06-11,19:58:46,Ana Martínez,Laura Torres,Pendiente,Urgente
+MOV-00477,Ajuste,Daño,SKU-0121,39,ALM-08,,H-05,,VENT-0041,130.32,7076.57,2024-02-23,22:03:01,Ana Martínez,Ana Martínez,Completado,
+MOV-00478,Reubicación,Reclasificación,SKU-0019,3,ALM-03,ALM-05,H-05,F-09,VENT-0443,448.41,739.77,2025-12-05,21:34:37,Ana Martínez,Carlos Gómez,Pendiente,Verificado
+MOV-00479,Reubicación,Ajuste de inventario,SKU-0186,97,ALM-10,ALM-09,F-06,D-18,COMP-0337,407.77,27167.78,2025-12-27,06:58:24,Ana Martínez,Carlos Gómez,Pendiente,Revisar
+MOV-00480,Merma,Reclasificación,SKU-0110,67,ALM-01,,E-06,,TR-012,397.97,10314.2,2024-01-22,16:39:38,Sofía Hernández,Ana Martínez,Completado,
+MOV-00481,Merma,Transferencia interna,SKU-0110,88,ALM-02,,D-11,,TR-023,373.96,18108.77,2025-08-15,15:54:41,Juan Pérez,Laura Torres,Pendiente,
+MOV-00482,Entrada,Devolución cliente,SKU-0186,72,ALM-10,,E-19,,COMP-0313,402.01,18376.62,2025-07-18,16:26:45,Pedro Sánchez,Carlos Gómez,Completado,
+MOV-00483,Devolución,Devolución proveedor,SKU-0003,42,ALM-02,,E-18,,VENT-0758,386.71,5178.5,2025-08-15,11:37:21,Sofía Hernández,María López,Completado,
+MOV-00484,Merma,Venta,SKU-0009,96,ALM-06,,E-04,,VENT-0424,99.38,37098.86,2024-12-01,03:01:38,Pedro Sánchez,Laura Torres,Completado,
+MOV-00485,Entrada,Ajuste de inventario,SKU-0173,30,ALM-07,,F-20,,,163.31,8131.69,2025-03-15,15:56:58,Carlos Gómez,Carlos Gómez,Completado,
+MOV-00486,Salida,Daño,SKU-0108,90,ALM-08,,A-07,,,112.97,7747.22,2025-05-13,02:56:50,Ana Martínez,Sofía Hernández,Completado,Urgente
+MOV-00487,Ajuste,Devolución proveedor,SKU-0190,88,ALM-03,,B-03,,VENT-0452,476.6,21155.22,2026-02-06,15:57:52,Ana Martínez,María López,Completado,
+MOV-00488,Devolución,Compra,SKU-0053,31,ALM-09,,G-06,,VENT-0056,401.66,9661.44,2024-04-17,08:43:53,Juan Pérez,Juan Pérez,Completado,Revisar
+MOV-00489,Entrada,Merma,SKU-0131,3,ALM-05,,F-03,,COMP-0347,80.48,356.64,2024-09-06,02:45:16,Juan Pérez,María López,Pendiente,
+MOV-00490,Salida,Venta,SKU-0133,34,ALM-07,,H-18,,COMP-0229,132.67,2682.73,2025-03-08,18:38:36,Laura Torres,Juan Pérez,Completado,Urgente
+MOV-00491,Salida,Devolución cliente,SKU-0006,36,ALM-08,,E-07,,VENT-0210,108.37,2502.88,2024-07-11,11:04:55,Juan Pérez,Juan Pérez,Completado,Verificado
+MOV-00492,Entrada,Devolución cliente,SKU-0017,2,ALM-02,,D-04,,VENT-0345,482.02,509.69,2025-10-06,09:08:03,Laura Torres,Carlos Gómez,Completado,Urgente
+MOV-00493,Salida,Reclasificación,SKU-0153,46,ALM-03,,B-16,,TR-003,371.89,21058.82,2025-03-09,14:31:27,Laura Torres,Laura Torres,Completado,
+MOV-00494,Salida,Venta,SKU-0129,62,ALM-03,,D-20,,COMP-0275,326.63,21045.92,2025-04-20,05:02:17,Laura Torres,Ana Martínez,Completado,
+MOV-00495,Transferencia,Devolución proveedor,SKU-0030,76,ALM-06,ALM-09,G-17,B-15,,292.35,34539.93,2024-09-15,00:31:37,Pedro Sánchez,Luis Rodríguez,Completado,
+MOV-00496,Merma,Reclasificación,SKU-0163,14,ALM-06,,F-20,,VENT-0583,157.29,3165.18,2024-12-22,04:02:23,Luis Rodríguez,Luis Rodríguez,Cancelado,
+MOV-00497,Reubicación,Reclasificación,SKU-0061,75,ALM-02,ALM-10,F-09,A-14,TR-011,453.38,4034.62,2024-07-06,01:47:29,María López,Sofía Hernández,Completado,Verificado
+MOV-00498,Devolución,Compra,SKU-0169,36,ALM-06,,F-12,,COMP-0369,353.2,6125.08,2024-07-09,01:28:48,Pedro Sánchez,Laura Torres,Pendiente,Urgente
+MOV-00499,Devolución,Transferencia interna,SKU-0135,69,ALM-03,,B-02,,COMP-0380,355.61,3734.07,2025-08-24,08:01:49,Luis Rodríguez,Laura Torres,Completado,
+MOV-00500,Reubicación,Venta,SKU-0045,38,ALM-08,ALM-06,H-18,A-09,VENT-0024,298.38,8891.42,2025-02-16,02:33:26,Luis Rodríguez,Luis Rodríguez,Completado,Verificado
+MOV-00501,Salida,Reclasificación,SKU-0198,38,ALM-01,,E-19,,,101.74,2167.99,2024-11-03,03:32:29,Laura Torres,Juan Pérez,Completado,
+MOV-00502,Salida,Compra,SKU-0084,60,ALM-05,,E-08,,COMP-0387,110.57,25682.9,2026-03-06,21:27:49,Laura Torres,Luis Rodríguez,Cancelado,Urgente
+MOV-00503,Entrada,Compra,SKU-0194,28,ALM-05,,D-17,,COMP-0052,167.5,12002.66,2025-10-16,05:18:29,Juan Pérez,Luis Rodríguez,Cancelado,
+MOV-00504,Entrada,Venta,SKU-0175,25,ALM-09,,G-10,,,416.33,11626.18,2024-03-01,22:24:52,Sofía Hernández,María López,Cancelado,
+MOV-00505,Salida,Venta,SKU-0119,48,ALM-08,,A-01,,TR-008,171.87,18142.88,2025-08-31,04:22:56,Pedro Sánchez,Laura Torres,Completado,
+MOV-00506,Reubicación,Merma,SKU-0177,43,ALM-03,ALM-06,B-05,D-04,,336.64,4347.05,2024-08-03,00:40:08,Juan Pérez,Pedro Sánchez,Completado,Verificado
+MOV-00507,Entrada,Ajuste de inventario,SKU-0064,95,ALM-01,,A-12,,VENT-0181,169.15,32397.66,2025-02-15,13:50:59,Laura Torres,Ana Martínez,Completado,
+MOV-00508,Devolución,Devolución proveedor,SKU-0068,86,ALM-07,,B-04,,VENT-0112,350.63,28339.43,2024-05-19,22:39:19,Luis Rodríguez,Carlos Gómez,Pendiente,Urgente
+MOV-00509,Entrada,Devolución proveedor,SKU-0137,36,ALM-04,,H-11,,COMP-0275,373.93,11922.83,2024-12-03,01:34:06,Luis Rodríguez,Luis Rodríguez,Completado,
+MOV-00510,Reubicación,Devolución proveedor,SKU-0050,18,ALM-09,ALM-06,D-12,A-07,VENT-0755,444.15,2288.3,2024-07-18,16:01:21,Juan Pérez,Laura Torres,Completado,
+MOV-00511,Reubicación,Daño,SKU-0128,92,ALM-02,ALM-10,H-07,F-09,COMP-0151,176.22,33631.0,2025-11-12,15:31:30,Luis Rodríguez,Luis Rodríguez,Completado,Revisar
+MOV-00512,Ajuste,Compra,SKU-0068,76,ALM-05,,G-10,,,223.94,21996.89,2024-09-08,16:59:08,Pedro Sánchez,Luis Rodríguez,Cancelado,Verificado
+MOV-00513,Salida,Devolución proveedor,SKU-0190,86,ALM-06,,D-16,,VENT-0608,456.45,37788.8,2025-04-13,20:51:24,Juan Pérez,María López,Completado,
+MOV-00514,Entrada,Transferencia interna,SKU-0066,4,ALM-06,,E-12,,TR-020,69.59,1560.2,2025-04-24,01:36:53,Ana Martínez,Carlos Gómez,Completado,Verificado
+MOV-00515,Entrada,Merma,SKU-0113,73,ALM-03,,F-04,,COMP-0362,105.97,16600.85,2024-05-26,01:13:08,Sofía Hernández,Juan Pérez,Completado,Urgente
+MOV-00516,Merma,Devolución cliente,SKU-0178,100,ALM-04,,E-09,,VENT-0471,119.88,46609.12,2025-08-21,13:05:50,Laura Torres,Luis Rodríguez,Cancelado,Verificado
+MOV-00517,Merma,Devolución proveedor,SKU-0068,44,ALM-10,,F-15,,COMP-0376,251.88,6022.3,2024-11-09,03:31:45,Luis Rodríguez,Carlos Gómez,Pendiente,Urgente
+MOV-00518,Entrada,Transferencia interna,SKU-0136,30,ALM-05,,A-06,,TR-007,438.12,13842.05,2024-05-15,15:24:06,Laura Torres,Pedro Sánchez,Completado,Urgente
+MOV-00519,Entrada,Compra,SKU-0197,86,ALM-05,,G-11,,,123.52,18919.82,2024-10-10,16:05:07,Juan Pérez,Sofía Hernández,Completado,
+MOV-00520,Merma,Transferencia interna,SKU-0034,69,ALM-01,,H-10,,VENT-0652,126.37,32832.96,2026-01-05,16:45:08,Laura Torres,Pedro Sánchez,Pendiente,Verificado
+MOV-00521,Reubicación,Ajuste de inventario,SKU-0070,24,ALM-06,ALM-05,D-08,H-07,TR-023,284.01,3532.24,2024-07-30,13:49:47,Carlos Gómez,María López,Completado,
+MOV-00522,Entrada,Compra,SKU-0004,18,ALM-08,,H-06,,VENT-0264,479.19,6544.96,2025-01-23,12:56:36,Pedro Sánchez,Sofía Hernández,Completado,Verificado
+MOV-00523,Entrada,Ajuste de inventario,SKU-0093,46,ALM-02,,A-12,,COMP-0093,79.47,11680.74,2025-05-02,00:42:51,Sofía Hernández,Juan Pérez,Pendiente,Revisar
+MOV-00524,Salida,Ajuste de inventario,SKU-0060,60,ALM-02,,C-20,,,383.93,16964.25,2025-04-05,01:57:49,Carlos Gómez,Laura Torres,Completado,Revisar
+MOV-00525,Merma,Transferencia interna,SKU-0179,4,ALM-07,,A-01,,COMP-0312,127.77,1209.4,2025-06-22,20:30:05,Carlos Gómez,María López,Cancelado,Revisar
+MOV-00526,Reubicación,Transferencia interna,SKU-0193,36,ALM-04,ALM-10,F-19,G-02,,415.79,14933.2,2024-12-21,19:33:46,Laura Torres,Sofía Hernández,Completado,Verificado
+MOV-00527,Transferencia,Ajuste de inventario,SKU-0115,80,ALM-03,ALM-04,A-18,A-14,,259.19,4424.34,2024-01-31,23:17:07,Ana Martínez,Juan Pérez,Completado,Verificado
+MOV-00528,Devolución,Reclasificación,SKU-0161,70,ALM-06,,H-11,,VENT-0700,477.27,3653.91,2025-03-09,10:36:48,María López,Luis Rodríguez,Completado,
+MOV-00529,Transferencia,Ajuste de inventario,SKU-0159,57,ALM-07,ALM-07,E-13,C-15,VENT-0514,96.97,26224.13,2024-06-29,09:49:44,Carlos Gómez,Juan Pérez,Completado,
+MOV-00530,Merma,Devolución proveedor,SKU-0142,35,ALM-01,,E-13,,TR-016,167.36,4795.72,2026-02-22,09:38:55,Ana Martínez,Luis Rodríguez,Completado,Verificado
+MOV-00531,Reubicación,Reclasificación,SKU-0184,97,ALM-05,ALM-01,H-18,G-19,VENT-0754,289.8,24340.54,2025-01-21,19:04:48,María López,Juan Pérez,Pendiente,Urgente
+MOV-00532,Reubicación,Transferencia interna,SKU-0112,59,ALM-07,ALM-05,B-17,H-20,TR-019,292.09,26652.98,2025-10-18,06:29:30,Juan Pérez,María López,Completado,
+MOV-00533,Devolución,Devolución cliente,SKU-0055,15,ALM-06,,C-09,,,171.68,768.51,2025-03-17,01:30:40,Ana Martínez,Pedro Sánchez,Completado,
+MOV-00534,Reubicación,Merma,SKU-0131,58,ALM-10,ALM-03,G-19,C-02,COMP-0397,261.33,8337.75,2025-01-17,10:49:31,María López,Carlos Gómez,Completado,Verificado
+MOV-00535,Ajuste,Ajuste de inventario,SKU-0048,10,ALM-01,,A-18,,VENT-0350,404.45,1018.13,2024-06-07,07:09:45,Luis Rodríguez,Carlos Gómez,Completado,Verificado
+MOV-00536,Ajuste,Daño,SKU-0006,1,ALM-01,,F-16,,,364.0,142.49,2025-08-17,06:57:58,Luis Rodríguez,María López,Completado,Urgente
+MOV-00537,Ajuste,Transferencia interna,SKU-0087,84,ALM-10,,F-14,,TR-009,439.58,34542.1,2024-07-12,00:47:31,Juan Pérez,Pedro Sánchez,Completado,
+MOV-00538,Ajuste,Devolución cliente,SKU-0070,49,ALM-04,,D-15,,,378.31,17013.5,2024-04-11,09:57:18,Ana Martínez,Pedro Sánchez,Cancelado,Verificado
+MOV-00539,Entrada,Merma,SKU-0170,94,ALM-04,,H-14,,TR-012,368.54,38539.61,2025-10-14,00:47:20,Luis Rodríguez,Sofía Hernández,Cancelado,Verificado
+MOV-00540,Ajuste,Devolución cliente,SKU-0032,68,ALM-09,,H-10,,TR-006,277.66,30400.79,2024-06-01,20:04:16,María López,Laura Torres,Completado,Verificado
+MOV-00541,Salida,Transferencia interna,SKU-0182,34,ALM-02,,C-05,,COMP-0105,105.2,10316.76,2025-12-03,00:00:29,María López,Ana Martínez,Completado,Urgente
+MOV-00542,Merma,Devolución cliente,SKU-0002,38,ALM-09,,E-12,,,213.52,16052.44,2026-01-05,08:07:46,Laura Torres,Pedro Sánchez,Pendiente,
+MOV-00543,Transferencia,Ajuste de inventario,SKU-0081,54,ALM-10,ALM-02,B-13,E-12,TR-013,464.28,22607.48,2025-07-15,14:48:52,Pedro Sánchez,Sofía Hernández,Pendiente,Urgente
+MOV-00544,Ajuste,Reclasificación,SKU-0099,52,ALM-07,,A-18,,VENT-0129,432.44,5868.47,2024-09-14,13:19:21,Sofía Hernández,Carlos Gómez,Completado,Verificado
+MOV-00545,Transferencia,Daño,SKU-0016,37,ALM-09,ALM-08,C-19,H-05,VENT-0370,113.78,1932.37,2025-08-09,02:43:44,Sofía Hernández,Juan Pérez,Pendiente,Revisar
+MOV-00546,Salida,Ajuste de inventario,SKU-0153,69,ALM-09,,G-09,,TR-013,112.86,16332.2,2025-04-23,13:12:37,Juan Pérez,Ana Martínez,Completado,
+MOV-00547,Transferencia,Venta,SKU-0064,8,ALM-09,ALM-04,D-08,A-03,VENT-0115,350.86,1841.74,2024-07-17,08:32:34,Sofía Hernández,Sofía Hernández,Cancelado,Verificado
+MOV-00548,Transferencia,Devolución cliente,SKU-0096,18,ALM-06,ALM-03,G-04,F-03,TR-014,471.38,3706.18,2025-12-14,22:33:13,Sofía Hernández,María López,Pendiente,Revisar
+MOV-00549,Devolución,Reclasificación,SKU-0052,84,ALM-02,,D-11,,TR-014,488.02,13553.34,2025-05-28,06:51:53,Sofía Hernández,Pedro Sánchez,Completado,
+MOV-00550,Ajuste,Devolución proveedor,SKU-0168,69,ALM-07,,A-04,,,398.71,31895.75,2024-05-24,13:08:16,Pedro Sánchez,Luis Rodríguez,Pendiente,Verificado
+MOV-00551,Merma,Merma,SKU-0044,76,ALM-09,,E-05,,,268.36,23973.03,2024-07-19,06:27:30,Juan Pérez,María López,Completado,
+MOV-00552,Merma,Compra,SKU-0127,10,ALM-10,,F-05,,TR-018,121.48,4617.98,2025-09-13,03:49:55,Sofía Hernández,María López,Cancelado,
+MOV-00553,Merma,Merma,SKU-0071,46,ALM-03,,E-09,,COMP-0214,66.04,10387.2,2026-01-18,13:26:13,Ana Martínez,Ana Martínez,Completado,
+MOV-00554,Devolución,Transferencia interna,SKU-0040,37,ALM-07,,C-11,,,479.48,2091.32,2024-07-12,01:41:31,Sofía Hernández,Sofía Hernández,Cancelado,Revisar
+MOV-00555,Reubicación,Devolución cliente,SKU-0073,9,ALM-03,ALM-01,C-10,E-07,TR-002,176.01,508.65,2025-11-19,23:38:13,Ana Martínez,Carlos Gómez,Cancelado,
+MOV-00556,Reubicación,Reclasificación,SKU-0150,82,ALM-01,ALM-03,E-09,A-10,,260.63,7649.51,2025-08-01,17:11:15,Sofía Hernández,Ana Martínez,Completado,Verificado
+MOV-00557,Ajuste,Reclasificación,SKU-0162,83,ALM-07,,F-11,,,246.91,20726.42,2024-08-13,15:14:21,Sofía Hernández,Luis Rodríguez,Cancelado,
+MOV-00558,Transferencia,Merma,SKU-0120,13,ALM-07,ALM-07,B-11,D-19,COMP-0112,323.25,1698.51,2024-07-03,22:03:53,Carlos Gómez,María López,Completado,
+MOV-00559,Merma,Ajuste de inventario,SKU-0026,27,ALM-04,,A-14,,VENT-0484,276.91,12183.41,2024-09-17,14:30:12,Ana Martínez,María López,Completado,Revisar
+MOV-00560,Reubicación,Reclasificación,SKU-0155,6,ALM-02,ALM-10,B-05,H-12,VENT-0249,191.78,2103.49,2024-08-14,02:18:51,Carlos Gómez,María López,Completado,Verificado
+MOV-00561,Merma,Merma,SKU-0048,23,ALM-06,,B-02,,VENT-0735,135.32,3749.77,2024-02-04,06:25:17,Luis Rodríguez,Luis Rodríguez,Completado,
+MOV-00562,Merma,Venta,SKU-0200,73,ALM-05,,C-06,,,334.19,18872.31,2025-03-04,04:10:58,Laura Torres,Pedro Sánchez,Cancelado,
+MOV-00563,Transferencia,Compra,SKU-0041,60,ALM-09,ALM-08,F-16,B-02,VENT-0224,148.12,3385.15,2025-06-04,18:02:57,Juan Pérez,Pedro Sánchez,Completado,Urgente
+MOV-00564,Salida,Merma,SKU-0088,66,ALM-08,,H-11,,TR-012,104.27,8221.25,2026-01-18,21:19:29,Juan Pérez,Ana Martínez,Completado,
+MOV-00565,Reubicación,Ajuste de inventario,SKU-0108,82,ALM-03,ALM-05,G-12,G-17,VENT-0790,183.51,19259.2,2024-08-09,06:21:07,Laura Torres,Sofía Hernández,Pendiente,
+MOV-00566,Transferencia,Devolución proveedor,SKU-0194,9,ALM-02,ALM-08,G-19,G-12,TR-012,197.24,2117.96,2025-06-11,01:50:59,Ana Martínez,Ana Martínez,Pendiente,Urgente
+MOV-00567,Transferencia,Merma,SKU-0040,24,ALM-05,ALM-09,E-05,B-01,COMP-0289,196.73,9109.41,2025-08-06,10:22:30,Sofía Hernández,Ana Martínez,Pendiente,Urgente
+MOV-00568,Salida,Merma,SKU-0059,63,ALM-01,,E-03,,VENT-0148,146.3,8391.5,2025-02-10,15:02:34,María López,Ana Martínez,Pendiente,
+MOV-00569,Salida,Venta,SKU-0152,72,ALM-01,,D-12,,VENT-0776,451.62,25346.01,2024-05-26,19:09:10,Sofía Hernández,Juan Pérez,Completado,Urgente
+MOV-00570,Merma,Merma,SKU-0171,40,ALM-03,,E-01,,VENT-0443,139.16,2979.83,2025-08-04,17:29:34,Ana Martínez,Luis Rodríguez,Pendiente,Verificado
+MOV-00571,Ajuste,Compra,SKU-0176,80,ALM-08,,C-10,,TR-014,219.78,15109.88,2024-01-25,17:14:27,Juan Pérez,Luis Rodríguez,Completado,Revisar
+MOV-00572,Ajuste,Devolución proveedor,SKU-0130,21,ALM-01,,F-11,,TR-011,124.33,5555.04,2025-11-29,05:24:24,Carlos Gómez,Ana Martínez,Completado,
+MOV-00573,Ajuste,Ajuste de inventario,SKU-0189,21,ALM-05,,G-18,,COMP-0368,263.11,1568.35,2025-05-14,21:17:29,Carlos Gómez,Ana Martínez,Completado,
+MOV-00574,Merma,Merma,SKU-0065,56,ALM-02,,A-12,,TR-020,89.12,4014.57,2025-03-02,12:55:32,Pedro Sánchez,Carlos Gómez,Cancelado,Revisar
+MOV-00575,Ajuste,Daño,SKU-0194,95,ALM-09,,H-20,,VENT-0279,450.27,36979.72,2026-02-03,21:59:50,Sofía Hernández,María López,Cancelado,Verificado
+MOV-00576,Devolución,Venta,SKU-0182,42,ALM-04,,E-09,,COMP-0025,362.93,6547.84,2025-03-03,03:34:15,Juan Pérez,María López,Pendiente,Revisar
+MOV-00577,Merma,Merma,SKU-0049,35,ALM-10,,B-05,,TR-016,321.11,14114.53,2025-04-25,20:39:35,Juan Pérez,María López,Completado,
+MOV-00578,Reubicación,Ajuste de inventario,SKU-0008,10,ALM-02,ALM-09,F-06,A-01,,213.72,1473.12,2025-01-29,06:15:52,Pedro Sánchez,Ana Martínez,Completado,
+MOV-00579,Reubicación,Transferencia interna,SKU-0002,76,ALM-02,ALM-03,H-02,C-08,TR-020,267.76,4995.78,2025-07-20,03:11:39,Sofía Hernández,Juan Pérez,Completado,
+MOV-00580,Merma,Devolución proveedor,SKU-0198,59,ALM-07,,A-01,,,345.27,19911.58,2025-05-12,23:05:29,Pedro Sánchez,Sofía Hernández,Completado,
+MOV-00581,Transferencia,Devolución cliente,SKU-0080,68,ALM-04,ALM-09,H-04,F-03,TR-024,187.0,22335.48,2024-09-01,03:29:40,Juan Pérez,Laura Torres,Completado,
+MOV-00582,Ajuste,Compra,SKU-0037,69,ALM-05,,A-02,,,437.47,20382.06,2024-07-09,23:12:18,María López,Carlos Gómez,Completado,
+MOV-00583,Entrada,Compra,SKU-0098,86,ALM-01,,F-20,,VENT-0220,364.05,25445.08,2025-11-28,04:43:47,Sofía Hernández,Carlos Gómez,Pendiente,Verificado
+MOV-00584,Salida,Compra,SKU-0093,19,ALM-03,,B-08,,TR-014,303.8,7153.42,2025-11-02,05:33:57,Ana Martínez,Carlos Gómez,Pendiente,Verificado
+MOV-00585,Merma,Venta,SKU-0007,13,ALM-07,,H-17,,TR-014,407.6,4990.53,2026-02-06,13:47:08,Juan Pérez,Carlos Gómez,Completado,
+MOV-00586,Transferencia,Devolución cliente,SKU-0049,65,ALM-03,ALM-07,H-08,A-06,VENT-0042,87.65,23308.76,2025-02-10,10:13:41,Juan Pérez,Luis Rodríguez,Completado,
+MOV-00587,Reubicación,Daño,SKU-0051,10,ALM-05,ALM-02,A-11,A-15,VENT-0328,275.81,1237.17,2025-09-14,09:26:59,Laura Torres,Laura Torres,Completado,
+MOV-00588,Reubicación,Merma,SKU-0128,65,ALM-08,ALM-10,H-02,A-18,,342.69,14736.57,2024-09-13,21:18:53,Juan Pérez,Sofía Hernández,Cancelado,
+MOV-00589,Transferencia,Venta,SKU-0084,92,ALM-08,ALM-03,H-06,H-20,COMP-0227,296.82,27978.9,2024-01-08,03:54:44,Ana Martínez,Carlos Gómez,Completado,
+MOV-00590,Entrada,Venta,SKU-0024,97,ALM-04,,E-01,,,82.85,31823.56,2024-06-10,01:23:01,Carlos Gómez,Luis Rodríguez,Completado,Verificado
+MOV-00591,Transferencia,Reclasificación,SKU-0017,9,ALM-05,ALM-08,B-03,H-02,VENT-0403,472.62,3924.12,2025-11-21,18:27:58,Pedro Sánchez,Ana Martínez,Completado,
+MOV-00592,Reubicación,Compra,SKU-0066,8,ALM-05,ALM-05,B-08,B-19,VENT-0128,419.43,1606.97,2025-04-03,13:31:50,Pedro Sánchez,Laura Torres,Pendiente,Verificado
+MOV-00593,Entrada,Devolución cliente,SKU-0150,44,ALM-10,,G-01,,COMP-0050,405.57,11107.04,2024-05-12,09:21:04,Laura Torres,Laura Torres,Completado,
+MOV-00594,Salida,Compra,SKU-0171,27,ALM-05,,F-08,,COMP-0157,248.19,9333.99,2025-07-22,10:55:12,Carlos Gómez,Juan Pérez,Cancelado,
+MOV-00595,Merma,Transferencia interna,SKU-0151,83,ALM-09,,E-17,,COMP-0289,212.34,22900.87,2025-12-07,05:29:10,Ana Martínez,Ana Martínez,Completado,Urgente
+MOV-00596,Ajuste,Transferencia interna,SKU-0176,81,ALM-05,,A-20,,TR-017,349.69,11174.09,2024-01-17,19:51:33,Luis Rodríguez,Pedro Sánchez,Completado,Revisar
+MOV-00597,Transferencia,Reclasificación,SKU-0069,18,ALM-04,ALM-10,D-11,G-12,,298.88,5378.14,2025-11-24,21:29:25,Carlos Gómez,Carlos Gómez,Pendiente,
+MOV-00598,Transferencia,Compra,SKU-0058,31,ALM-07,ALM-03,A-04,G-14,,102.51,11191.63,2024-11-15,04:05:23,Pedro Sánchez,Ana Martínez,Completado,Urgente
+MOV-00599,Transferencia,Merma,SKU-0046,54,ALM-03,ALM-09,G-06,D-07,VENT-0471,174.17,11540.49,2024-08-04,22:07:47,Luis Rodríguez,Ana Martínez,Completado,
+MOV-00600,Salida,Reclasificación,SKU-0022,10,ALM-06,,E-19,,VENT-0301,265.12,1799.69,2024-04-17,02:40:35,Luis Rodríguez,Carlos Gómez,Completado,Verificado

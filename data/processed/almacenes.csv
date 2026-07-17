@@ -1,0 +1,11 @@
+ID,Nombre,País,Ciudad,Dirección,Código Postal,Teléfono,Email,Capacidad Total,Capacidad Usada,Tipo,Temperatura Controlada,Horario Operación,Responsable,Estado,Fecha Apertura
+ALM-01,Almacén Bogotá Norte,USA,Bogotá,"Carrera 128 #162-84, Bogotá",93930,+1-138-7551231,alm1@logistica.com,8305,4673,Regional,No,Lun-Vie 06:00-22:00,Luis Gómez,En mantenimiento,2023-07-03
+ALM-02,Almacén Miami Oeste,España,Miami,"Carrera 104 #874-94, Miami",19188,+70-331-1055488,alm2@logistica.com,8833,5798,Cross-dock,Sí,Lun-Sab 08:00-20:00,Luis Martínez,Activo,2021-05-25
+ALM-03,Almacén Madrid Norte,Colombia,Madrid,"Carrera 24 #384-69, Madrid",54572,+11-961-8711468,alm3@logistica.com,7563,4643,Regional,No,Lun-Sab 08:00-20:00,Juan Rodríguez,Cerrado,2020-02-22
+ALM-04,Almacén CDMX Principal,México,CDMX,"Carrera 100 #927-14, CDMX",92656,+89-467-9162175,alm4@logistica.com,5896,2115,Cross-dock,No,24/7,Juan López,Activo,2024-08-25
+ALM-05,Almacén São Paulo Oeste,Brasil,São Paulo,"Carrera 100 #74-70, São Paulo",94332,+40-611-9958027,alm5@logistica.com,4907,3312,Central,Sí,Lun-Vie 06:00-22:00,Juan Martínez,Cerrado,2018-06-25
+ALM-06,Almacén Santiago Norte,Chile,Santiago,"Carrera 55 #836-84, Santiago",97466,+67-569-3499027,alm6@logistica.com,7643,4200,Central,Sí,Lun-Sab 08:00-20:00,María Rodríguez,Cerrado,2018-03-20
+ALM-07,Almacén Ciudad de Panamá Central,Panamá,Ciudad de Panamá,"Carrera 12 #258-90, Ciudad de Panamá",95037,+17-114-3889858,alm7@logistica.com,8720,7798,Central,No,24/7,Ana Hernández,Activo,2024-08-17
+ALM-08,Almacén Buenos Aires Norte,Argentina,Buenos Aires,"Carrera 30 #519-77, Buenos Aires",90691,+29-164-4399754,alm8@logistica.com,2047,1486,Satélite,No,Lun-Vie 06:00-22:00,Juan Pérez,En mantenimiento,2024-02-14
+ALM-09,Almacén Toronto Este,Canadá,Toronto,"Carrera 55 #792-6, Toronto",87736,+23-443-2060687,alm9@logistica.com,3250,1222,Satélite,No,Lun-Vie 06:00-22:00,María Pérez,Activo,2024-03-16
+ALM-10,Almacén Lima Oeste,Perú,Lima,"Carrera 63 #957-75, Lima",15334,+18-202-7310431,alm10@logistica.com,3703,1756,Central,No,24/7,Juan Gómez,Activo,2019-01-01
