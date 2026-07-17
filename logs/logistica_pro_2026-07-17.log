@@ -1,0 +1,36 @@
+2026-07-17 22:38:10 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:38:10 | INFO     | logistica_pro |   PIPELINE LOGISTICA PRO - ANALISIS COMPLETO
+2026-07-17 22:38:10 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:38:10 | INFO     | logistica_pro | 
+============================================================
+2026-07-17 22:38:10 | INFO     | logistica_pro | PASO 1: CARGA DE DATOS
+2026-07-17 22:38:10 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:38:10 | INFO     | logistica_pro | Cargando archivo: /workspaces/logistica-pro-analysis/src/data/raw/logistica_pro_expandido (2).xlsx
+2026-07-17 22:38:10 | ERROR    | logistica_pro | ✗ Archivo no encontrado: /workspaces/logistica-pro-analysis/src/data/raw/logistica_pro_expandido (2).xlsx
+2026-07-17 22:46:36 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:46:36 | INFO     | logistica_pro |   PIPELINE LOGISTICA PRO - ANALISIS COMPLETO
+2026-07-17 22:46:36 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:46:36 | INFO     | logistica_pro | 
+============================================================
+2026-07-17 22:46:36 | INFO     | logistica_pro | PASO 1: CARGA DE DATOS
+2026-07-17 22:46:36 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:46:36 | INFO     | logistica_pro | Cargando archivo: /workspaces/logistica-pro-analysis/src/data/raw/logistica_pro_expandido (2).xlsx
+2026-07-17 22:46:36 | ERROR    | logistica_pro | ✗ Archivo no encontrado: /workspaces/logistica-pro-analysis/src/data/raw/logistica_pro_expandido (2).xlsx
+2026-07-17 22:49:58 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:49:58 | INFO     | logistica_pro |   PIPELINE LOGISTICA PRO - ANALISIS COMPLETO
+2026-07-17 22:49:58 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:49:58 | INFO     | logistica_pro | 
+============================================================
+2026-07-17 22:49:58 | INFO     | logistica_pro | PASO 1: CARGA DE DATOS
+2026-07-17 22:49:58 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:49:58 | INFO     | logistica_pro | Cargando archivo: /workspaces/logistica-pro-analysis/src/data/raw/logistica_pro_expandido (2).xlsx
+2026-07-17 22:49:58 | ERROR    | logistica_pro | ✗ Archivo no encontrado: /workspaces/logistica-pro-analysis/src/data/raw/logistica_pro_expandido (2).xlsx
+2026-07-17 22:53:05 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:53:05 | INFO     | logistica_pro |   PIPELINE LOGISTICA PRO - ANALISIS COMPLETO
+2026-07-17 22:53:05 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:53:05 | INFO     | logistica_pro | 
+============================================================
+2026-07-17 22:53:05 | INFO     | logistica_pro | PASO 1: CARGA DE DATOS
+2026-07-17 22:53:05 | INFO     | logistica_pro | ============================================================
+2026-07-17 22:53:05 | INFO     | logistica_pro | Cargando archivo: /workspaces/logistica-pro-analysis/data/raw/logistica_pro_expandido (2).xlsx
+2026-07-17 22:53:05 | ERROR    | logistica_pro | ✗ Error al cargar Excel: `Import openpyxl` failed.  Use pip or conda to install the openpyxl package.
