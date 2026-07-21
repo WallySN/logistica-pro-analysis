@@ -1,0 +1,29 @@
+============================================================
+  REPORTE EJECUTIVO - LOGÍSTICA PRO
+  Generado: 2026-07-21 15:47:23
+============================================================
+
+📊 RESUMEN EJECUTIVO
+----------------------------------------
+Total Productos:      96,459
+Ventas Totales:       $10,630,285.93
+Compras Totales:      $6,179,733.06
+Valor Inventario:     $8,046,670.31
+Total Proveedores:    50
+Total Clientes:       100
+Total Rutas:          25
+Total Incidentes:     27
+Total Devoluciones:   92
+Margen Promedio:      80.9%
+Ticket Promedio:      $13,287.86
+Calif. Proveedores:   3.85
+Costo Incidentes:     $12,488.00
+
+🚨 ALERTAS
+----------------------------------------
+⚠️  Productos con stock bajo: 32
+⚠️  Clientes morosos: 10
+⚠️  Costo de incidentes elevado: $12,488.00
+
+============================================================
+Fin del reporte
