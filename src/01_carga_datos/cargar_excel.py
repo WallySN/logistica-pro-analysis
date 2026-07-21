@@ -3,11 +3,14 @@ import pandas as pd
 import sys
 from pathlib import Path
 
-# Agregar raíz del proyecto al path
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+# Configurar la raíz del proyecto para resolver dependencias
+RAIZ_PROYECTO = Path(__file__).resolve().parents[2]
+if str(RAIZ_PROYECTO) not in sys.path:
+    sys.path.insert(0, str(RAIZ_PROYECTO))
 
-from utils.config import EXCEL_FILE, DATA_PROCESSED
-from utils.loggers import logger
+# Importaciones corregidas especificando el paquete principal 'src'
+from src.utils.config import EXCEL_FILE, DATA_PROCESSED
+from src.utils.loggers import logger
 
 def cargar_hojas_excel(ruta_archivo=None):
     """
@@ -29,7 +32,7 @@ def cargar_hojas_excel(ruta_archivo=None):
             df = pd.read_excel(excel, sheet_name=nombre_hoja)
             
             # Limpiar nombres de columnas (quitar espacios extras)
-            df.columns = df.columns.str.strip()
+            df.columns = df.columns.astype(str).str.strip()
             
             # Eliminar filas duplicadas de encabezado si existen
             if len(df) > 0 and df.iloc[0].astype(str).equals(df.columns.astype(str)):
