@@ -1,0 +1,19 @@
+Este proyecto está bajo la licencia MIT. Ver LICENSE para más detalles.
+plain
+
+---
+
+## Guardar y subir
+
+```bash
+cd /workspaces/logistica-pro-analysis
+
+# Guardar README
+cat > README.md << 'EOF'
+[Pega aquí el contenido de arriba]
+EOF
+
+# Subir a GitHub
+git add README.md
+git commit -m "docs: README profesional con estructura, instrucciones y badges"
+git push origin main
